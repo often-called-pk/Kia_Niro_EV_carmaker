@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
 FileIdent = CarMaker-Car 14
-FileCreator = CarMaker Office 14.1.1
+FileCreator = CarMaker Office Extended 14.1.1
 
 
 ## Assembly ##############################################################
@@ -398,9 +398,7 @@ PowerTrain.Gearbox.0.Clutch.c = 1500.0
 PowerTrain.Gearbox.0.Bdy.mass = 0.0
 PowerTrain.Gearbox.0.Bdy.I = 0.0 0.0 0.0
 
-PowerTrain.DL.Kind = GenAxle 1
-PowerTrain.DL.FAxle.DrvSrc = Diff 0
-PowerTrain.DL.RAxle.DrvSrc =
+PowerTrain.DL.Kind = GenFront 1
 PowerTrain.DL.FlexShaft = 0
 
 PowerTrain.DL.FDiff.Eta = 1.0
@@ -411,27 +409,7 @@ PowerTrain.DL.FDiff.I_Cage = 0.0
 PowerTrain.DL.FDiff.Cpl.Kind =
 PowerTrain.DL.TrqExt2DiffOn = 0
 PowerTrain.DL.TrqExt2WheelOn = 0
-PowerTrain.Motor.Kind = Mapping 1
-PowerTrain.Motor.VoltageLevel = HV1
-PowerTrain.Motor.I = 0.002
-PowerTrain.Motor.Ratio = 1.0
-PowerTrain.Motor.tBuildUp = 0.01
-PowerTrain.Motor.Fric = 3.0e-4
-PowerTrain.Motor.Mot.TrqKind = Value
-PowerTrain.Motor.Mot.Pwr_max = 20.0
-PowerTrain.Motor.Mot.Trq_max = 250.0
-PowerTrain.Motor.Mot.rotv_max = 8000.0
-PowerTrain.Motor.Mot.EtaKind = Value
-PowerTrain.Motor.Mot.Eta = 0.95
-PowerTrain.Motor.Gen.TrqKind = Value
-PowerTrain.Motor.Gen.Pwr_max = 20.0
-PowerTrain.Motor.Gen.Trq_max = 250.0
-PowerTrain.Motor.Gen.rotv_max = 8000.0
-PowerTrain.Motor.Gen.rotv_Trq_max = 500.0
-PowerTrain.Motor.Gen.EtaKind = Value
-PowerTrain.Motor.Gen.Eta = 0.95
-PowerTrain.Motor.Bdy.mass = 0.0
-PowerTrain.Motor.Bdy.I = 0.0 0.0 0.0
+PowerTrain.Motor.Kind = PMSM 1
 PowerTrain.Inverter.0.Kind =
 PowerTrain.Inverter.0.PowerLoss:
 	0 10 5
@@ -451,7 +429,7 @@ PowerTrain.Inverter.0.PowerLoss:
 	4000 300 45
 PowerTrain.Control.Kind = BEV 1
 PowerTrain.ControlOSM.Kind = Generic 1
-PowerTrain.Control.StartEngineWithSST = 1
+PowerTrain.Control.StartEngineWithSST = 0
 
 PowerTrain.Control.BattMan.Active = 1
 PowerTrain.Control.BattMan.LV.Pwr_Gen_max = 2.0
@@ -506,7 +484,7 @@ PowerTrain.MCU.Motor.RotvCtrl.i = 5.0e-5
 PowerTrain.BCU.Kind = LV_HV1 1
 PowerTrain.PowerSupply.Kind = LV_HV1 1
 PowerTrain.PowerSupply.Pwr_LV_aux = 0.0
-PowerTrain.PowerSupply.Pwr_HV1_aux = 0.0
+PowerTrain.PowerSupply.Pwr_HV1_aux = 358
 
 PowerTrain.PowerSupply.DCDC_HV1_LV.Pwr_max = 0.0
 PowerTrain.PowerSupply.DCDC_HV1_LV.EtaKind = Value
@@ -531,8 +509,8 @@ PowerTrain.PowerSupply.BattLV.Bdy.0.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattHV.Kind = Chen 1
-PowerTrain.PowerSupply.BattHV.Capacity = 180.9
-PowerTrain.PowerSupply.BattHV.Voltage_oc = 400.0
+PowerTrain.PowerSupply.BattHV.Capacity = 150
+PowerTrain.PowerSupply.BattHV.Voltage_oc = 358
 PowerTrain.PowerSupply.BattHV.SOC = 100
 PowerTrain.PowerSupply.BattHV.SOC_min = 0
 PowerTrain.PowerSupply.BattHV.SOC_max = 100

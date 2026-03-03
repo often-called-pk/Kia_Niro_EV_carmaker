@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fmiBuildDescription fmiVersion="3.0">
+
+  <BuildConfiguration modelIdentifier="MySteeringSrc_FMU">
+    <SourceFileSet language="C99">
+      <SourceFile name="MySteeringSrc_FMU.c"/>
+      <PreprocessorDefinition name="FMI_VERSION" value="3"/>
+    </SourceFileSet>
+  </BuildConfiguration>
+
+</fmiBuildDescription>
