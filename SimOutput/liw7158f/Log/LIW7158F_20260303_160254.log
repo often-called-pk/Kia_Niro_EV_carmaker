@@ -1,0 +1,35 @@
+APPLICATION	CarMaker 14.1.1 - Car_Generic #4 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:59:59
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-03 16:02:54
+TIME	0.000
+SIM_END			0s	0m
+IDLE	16:02:54
+SIM_START	unknown	2026-03-03 16:02:56
+TIME	0.000
+SIMULATE	unknown
+
+TIME	420.138
+SIM_END		unknown	420.13s	7282.92m
+SIM_START	unknown	2026-03-03 16:03:28
+TIME	0.000
+SIMULATE	unknown
+
+TIME	27.189
+SIM_END		unknown	27.186s	330.158m
+SIM_START	unknown	2026-03-03 16:03:47
+TIME	0.030
+ERROR		PowerTrain.Engine Mapping: Can't generate DragPower characteristic
+ERROR		PowerTrain.Engine Mapping: Can't generate FullLoadPower characteristic
+SIM_ABORT	unknown	0s	330.158m
+TIME	545.333
+SIM_START	unknown	2026-03-03 17:34:40
+TIME	0.000
+SIMULATE	unknown
+
+ERROR		Embedded FARoadSensor Geo:  xyz (nan nan nan) not found on Road
+SIM_ABORT	unknown	0.001s	0m
+TIME	70.098
+SHUTDOWN	CarMaker quick shutdown initiated
+

@@ -1,0 +1,39 @@
+
+
+SYSTEM_START	-	liw7158f	Tue Mar 3 16:01:47 2026
+
+
+SYSTEM_INFO	Movie NX pro 14.1.1 2025-07-04
+Creating engine cache path: C:/Users/s458193/AppData/Local/cache/MovieNX/cache_141
+[Warning] Invalid configuration file for Creator "MovieNX". Perhaps the file was not yet created? Path: C:/Users/s458193/MovieNX/data/View/ViewSettings.cfg)
+Using RenderSettingsProfile: RenderSettings_high.cfg -> template_high.render
+Loading Installed scripts...
+Loading User scripts...
+ApoConnection: Disconnecting...
+APO: Successfully connected to: CarMaker 14.1.1 - Car_Generic @ LIW7158F(127.0.0.1):21388
+Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-14.1.1'
+Loading Test Run from path C:/Users/s458193/OneDrive - Cranfield University/PROJECTNAME/PROJECTNAME/Data/TestRun/.tmp__s458193.0
+Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-14.1.1'
+Loading Test Run from path C:/Users/s458193/OneDrive - Cranfield University/PROJECTNAME/PROJECTNAME/Data/TestRun/.tmp_LIW7158F_s458193.0
+Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-14.1.1'
+Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-14.1.1'
+Loading Test Run from path C:/Users/s458193/OneDrive - Cranfield University/PROJECTNAME/PROJECTNAME/Data/TestRun/.tmp_LIW7158F_s458193.0
+[Warning] EgoVehicle: missing 'body_B' node!
+[Warning] EgoVehicle: missing 'body_A2B' node!
+node wheel_carrier.fl missing in EgoVehicle, using dummy instead
+[Warning] EgoVehicle: wheel carrier  has no child node
+node wheel_carrier.fr missing in EgoVehicle, using clone instead
+[Warning] EgoVehicle: wheel carrier wheel_carrier.fr has no child node
+node wheel_carrier.rl missing in EgoVehicle, using clone instead
+[Warning] EgoVehicle: wheel carrier wheel_carrier.rl has no child node
+node wheel_carrier.rr missing in EgoVehicle, using clone instead
+[Warning] EgoVehicle: wheel carrier wheel_carrier.rr has no child node
+ApoConnection: Disconnecting...
+Loading Test Run from path C:/Users/s458193/OneDrive - Cranfield University/PROJECTNAME/PROJECTNAME/Data/TestRun/.tmp_preview
+[ERROR] reported by external module TrafficUtils: Vehicle StartPos: No parameter found for ObjId (type 'Route').
+[ERROR] initialization of start positions failed...
+ApoConnection: Disconnecting...
+Loading Test Run from path C:/Users/s458193/OneDrive - Cranfield University/PROJECTNAME/PROJECTNAME/Data/TestRun/.tmp_preview
+[ERROR] reported by external module TrafficUtils: Vehicle StartPos: No parameter found for ObjId (type 'Route').
+[ERROR] initialization of start positions failed...
+ApoConnection: Disconnecting...
