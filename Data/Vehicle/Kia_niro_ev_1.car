@@ -398,7 +398,9 @@ PowerTrain.Gearbox.0.Clutch.c = 1500.0
 PowerTrain.Gearbox.0.Bdy.mass = 0.0
 PowerTrain.Gearbox.0.Bdy.I = 0.0 0.0 0.0
 
-PowerTrain.DL.Kind = GenFront 1
+PowerTrain.DL.Kind = GenAxle 1
+PowerTrain.DL.FAxle.DrvSrc = Diff 0
+PowerTrain.DL.RAxle.DrvSrc =
 PowerTrain.DL.FlexShaft = 0
 
 PowerTrain.DL.FDiff.Eta = 1.0
@@ -449,7 +451,7 @@ PowerTrain.Inverter.0.PowerLoss:
 	4000 300 45
 PowerTrain.Control.Kind = BEV 1
 PowerTrain.ControlOSM.Kind = Generic 1
-PowerTrain.Control.StartEngineWithSST = 0
+PowerTrain.Control.StartEngineWithSST = 1
 
 PowerTrain.Control.BattMan.Active = 1
 PowerTrain.Control.BattMan.LV.Pwr_Gen_max = 2.0
@@ -530,7 +532,7 @@ PowerTrain.PowerSupply.BattLV.Bdy.1.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattHV.Kind = Chen 1
 PowerTrain.PowerSupply.BattHV.Capacity = 150.0
-PowerTrain.PowerSupply.BattHV.Voltage_oc = 358
+PowerTrain.PowerSupply.BattHV.Voltage_oc = 400.0
 PowerTrain.PowerSupply.BattHV.SOC = 100
 PowerTrain.PowerSupply.BattHV.SOC_min = 0
 PowerTrain.PowerSupply.BattHV.SOC_max = 100
