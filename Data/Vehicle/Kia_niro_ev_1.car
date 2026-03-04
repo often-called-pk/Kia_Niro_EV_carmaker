@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
 FileIdent = CarMaker-Car 14
-FileCreator = CarMaker Office 14.1.1
+FileCreator = CarMaker Office Extended 14.1.1
 
 
 ## Assembly ##############################################################
@@ -381,22 +381,12 @@ PowerTrain.Comment:
 PowerTrain.OSRate = 5
 PowerTrain.nMotor = 1
 
-PowerTrain.Gearbox.0.Kind = Auto_AMT 1
+PowerTrain.Gearbox.0.Kind = NoGearbox 1
+
+
+## Additional Parameters #################################################
 PowerTrain.Gearbox.0.I_in = 0.001
 PowerTrain.Gearbox.0.I_out = 0.024
-PowerTrain.Gearbox.0.iForwardGears = 10.65
-PowerTrain.Gearbox.0.iBackwardGears = -10.65
-PowerTrain.Gearbox.0.nFit = 50
-PowerTrain.Gearbox.0.LossKind = Constant
-PowerTrain.Gearbox.0.EtaForwardGears = 0.95
-PowerTrain.Gearbox.0.EtaBackwardGears = 0.95
-PowerTrain.Gearbox.0.Clutch.I_in = 0.01
-PowerTrain.Gearbox.0.Clutch.I_out = 0.01
-PowerTrain.Gearbox.0.Clutch.Trq_max = 300.0
-PowerTrain.Gearbox.0.Clutch.slope = 30.0
-PowerTrain.Gearbox.0.Clutch.c = 1500.0
-PowerTrain.Gearbox.0.Bdy.mass = 0.0
-PowerTrain.Gearbox.0.Bdy.I = 0.0 0.0 0.0
 
 PowerTrain.DL.Kind = GenAxle 1
 PowerTrain.DL.FAxle.DrvSrc = Diff 0
@@ -404,7 +394,7 @@ PowerTrain.DL.RAxle.DrvSrc =
 PowerTrain.DL.FlexShaft = 0
 
 PowerTrain.DL.FDiff.Eta = 1.0
-PowerTrain.DL.FDiff.i = Inf
+PowerTrain.DL.FDiff.i = 10.65
 PowerTrain.DL.FDiff.I_in = 0.001
 PowerTrain.DL.FDiff.I_out = 0.001
 PowerTrain.DL.FDiff.I_Cage = 0.0
@@ -418,21 +408,21 @@ PowerTrain.Motor.Ratio = 1.0
 PowerTrain.Motor.tBuildUp = 0.01
 PowerTrain.Motor.Fric = 3.0e-4
 PowerTrain.Motor.Mot.TrqKind = Value
-PowerTrain.Motor.Mot.Pwr_max = 20.0
-PowerTrain.Motor.Mot.Trq_max = 250.0
-PowerTrain.Motor.Mot.rotv_max = 8000.0
+PowerTrain.Motor.Mot.Pwr_max = 150
+PowerTrain.Motor.Mot.Trq_max = 255
+PowerTrain.Motor.Mot.rotv_max = 14125
 PowerTrain.Motor.Mot.EtaKind = Value
 PowerTrain.Motor.Mot.Eta = 0.95
 PowerTrain.Motor.Gen.TrqKind = Value
-PowerTrain.Motor.Gen.Pwr_max = 20.0
-PowerTrain.Motor.Gen.Trq_max = 250.0
-PowerTrain.Motor.Gen.rotv_max = 8000.0
+PowerTrain.Motor.Gen.Pwr_max = 150
+PowerTrain.Motor.Gen.Trq_max = 255
+PowerTrain.Motor.Gen.rotv_max = 14125
 PowerTrain.Motor.Gen.rotv_Trq_max = 500.0
 PowerTrain.Motor.Gen.EtaKind = Value
 PowerTrain.Motor.Gen.Eta = 0.95
 PowerTrain.Motor.Bdy.mass = 0.0
 PowerTrain.Motor.Bdy.I = 0.0 0.0 0.0
-PowerTrain.Inverter.0.Kind =
+PowerTrain.Inverter.0.Kind = Mapping 1
 PowerTrain.Inverter.0.PowerLoss:
 	0 10 5
 	0 150 10
@@ -464,7 +454,7 @@ PowerTrain.Control.BattMan.HV.i_SOC = 50.0
 PowerTrain.Control.BattMan.HV.i_Pwr = 1.0
 
 PowerTrain.Control.GasInterpret.Mode = Linear
-PowerTrain.Control.GasInterpret.TrqFull = 185.0
+PowerTrain.Control.GasInterpret.TrqFull = 255
 PowerTrain.Control.GasInterpret.TrqZero = -10.0
 
 PowerTrain.Control.RegBrake.Active = 1
@@ -478,26 +468,7 @@ PowerTrain.Control.RegDrag.SOC_lim_range = 5.0
 PowerTrain.Control.RegDrag.v_lim = 5.0
 PowerTrain.Control.RegDrag.Trq_RegDrag_lim = 2.0
 
-PowerTrain.TCU.Kind = Auto_AMT 1
-PowerTrain.TCU.AutoWithMan = 0
-PowerTrain.TCU.GB.0.Active = 1
-PowerTrain.TCU.GB.1.Active = 0
-PowerTrain.TCU.GB.2.Active = 0
-PowerTrain.TCU.GB.3.Active = 0
-PowerTrain.TCU.GB.4.Active = 0
-PowerTrain.TCU.ShiftCtrl.0.Kind = Linear
-PowerTrain.TCU.ShiftCtrl.0.RotvRef = Gearbox_In
-PowerTrain.TCU.ShiftCtrl.0.Delay = 0.5
-PowerTrain.TCU.ShiftCtrl.0.nShift:
-	1 1000.0 4000.0
-	2 1500.0 3750.0
-	3 1750.0 3750.0
-	4 2000.0 3250.0
-	5 2375.0 6000.0
-PowerTrain.TCU.ShiftCtrl.0.Man.SpeedRange = 800.0 7000.0
-PowerTrain.TCU.ClutchCtrl.0.Creep.Active = 0
-PowerTrain.TCU.ClutchCtrl.0.Creep.Brake_lim = 0.0
-PowerTrain.TCU.ShiftCtrl.0.ShiftAvoid =
+PowerTrain.TCU.Kind =
 PowerTrain.MCU.Kind = Basic 1
 PowerTrain.MCU.Motor.TrqCtrl.p = 0.05
 PowerTrain.MCU.Motor.TrqCtrl.i = 100.0
@@ -525,17 +496,17 @@ PowerTrain.PowerSupply.BattLV.C1 = 4074.0
 PowerTrain.PowerSupply.BattLV.C2 = 82000.0
 PowerTrain.PowerSupply.BattLV.VoltCorr_SOC.Active = 0
 PowerTrain.PowerSupply.BattLV.PwrMax.Kind = Const
-PowerTrain.PowerSupply.BattLV.PwrMax.Pwr_max = 2.0
+PowerTrain.PowerSupply.BattLV.PwrMax.Pwr_max = 12.0
 PowerTrain.PowerSupply.BattLV.Bdy.0.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.0.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattHV.Kind = Chen 1
 PowerTrain.PowerSupply.BattHV.Capacity = 180.9
-PowerTrain.PowerSupply.BattHV.Voltage_oc = 400.0
-PowerTrain.PowerSupply.BattHV.SOC = 100
-PowerTrain.PowerSupply.BattHV.SOC_min = 0
-PowerTrain.PowerSupply.BattHV.SOC_max = 100
+PowerTrain.PowerSupply.BattHV.Voltage_oc = 358
+PowerTrain.PowerSupply.BattHV.SOC = 70
+PowerTrain.PowerSupply.BattHV.SOC_min = 20
+PowerTrain.PowerSupply.BattHV.SOC_max = 80
 PowerTrain.PowerSupply.BattHV.R0 = 0.0012
 PowerTrain.PowerSupply.BattHV.R1 = 0.0004
 PowerTrain.PowerSupply.BattHV.R2 = 0.0011
@@ -543,7 +514,7 @@ PowerTrain.PowerSupply.BattHV.C1 = 4074.0
 PowerTrain.PowerSupply.BattHV.C2 = 82000.0
 PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Active = 0
 PowerTrain.PowerSupply.BattHV.PwrMax.Kind = Const
-PowerTrain.PowerSupply.BattHV.PwrMax.Pwr_max = 151
+PowerTrain.PowerSupply.BattHV.PwrMax.Pwr_max = 200
 PowerTrain.PowerSupply.BattHV.Bdy.0.mass = 0.0
 PowerTrain.PowerSupply.BattHV.Bdy.0.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattHV.Bdy.1.mass = 0.0

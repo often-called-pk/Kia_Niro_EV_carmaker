@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fmiModelDescription
+  fmiVersion="1.0"
+  modelName="MySelectorCtrlMapping_FMU"
+  modelIdentifier="MySelectorCtrlMapping_FMU"
+  guid="{6d91a042-4d56-4896-ba29-59e9e4dec7f0}"
+  numberOfContinuousStates="0"
+  numberOfEventIndicators="0">
+
+<ModelVariables>  
+  <ScalarVariable name="SelectorCtrlAction"  valueReference="0" description=""  causality = "input">
+      <Integer start="0"/>
+  </ScalarVariable>
+  <ScalarVariable name="SelectorCtrlCurrent"  valueReference="1" description=""  causality = "input">
+      <Integer start="0"/>
+  </ScalarVariable>
+  <ScalarVariable name="SelectorCtrlOut"  valueReference="2" description=""  causality = "output">
+      <Integer start="0"/>
+  </ScalarVariable>
+  <ScalarVariable name="DigitalSelectorCtrl0"  valueReference="3" description=""  causality = "output">
+      <Integer start="0"/>
+  </ScalarVariable>
+  <ScalarVariable name="DigitalSelectorCtrl1"  valueReference="4" description=""  causality = "output">
+      <Integer start="0"/>
+  </ScalarVariable>
+  <ScalarVariable name="DigitalSelectorCtrl2"  valueReference="5" description=""  causality = "output">
+      <Integer start="0"/>
+  </ScalarVariable>
+</ModelVariables>
+
+<Implementation>
+    <CoSimulation_StandAlone>
+	<Capabilities
+		     canHandleVariableCommunicationStepSize="true"
+		     canHandleEvents="true"/>
+    </CoSimulation_StandAlone>
+</Implementation>
+
+</fmiModelDescription>
+
+

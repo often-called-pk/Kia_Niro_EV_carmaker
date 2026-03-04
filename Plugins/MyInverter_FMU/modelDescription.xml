@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fmiModelDescription
+  fmiVersion="1.0"
+  modelName="MyInverter_FMU"
+  modelIdentifier="MyInverter_FMU"
+  guid="{a40969db-3892-4e83-a406-3618408171cc}"
+  numberOfContinuousStates="0"
+  numberOfEventIndicators="0">
+
+<ModelVariables>
+ <ScalarVariable name="Load_in" valueReference="0" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Motor_Trq" valueReference="1" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Motor_rotv" valueReference="2" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Motor_rot" valueReference="3" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Volt_Batt" valueReference="4" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="PwrElec" valueReference="5" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="MotorType" valueReference="6" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="GateSignal0" valueReference="7" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="GateSignal1" valueReference="8" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="GateSignal2" valueReference="9" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="nPolePairs" valueReference="10" causality = "input">
+     <Real start="0.0"/>
+ </ScalarVariable>
+
+ <ScalarVariable name="Load_out" valueReference="11" causality = "output">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Current_Batt" valueReference="12" causality = "output">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="PwrLoss" valueReference="13" causality = "output">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Voltage_d" valueReference="14" causality = "output">
+     <Real start="0.0"/>
+ </ScalarVariable>
+ <ScalarVariable name="Voltage_q" valueReference="15" causality = "output">
+     <Real start="0.0"/>
+ </ScalarVariable>
+</ModelVariables>
+
+<Implementation>
+  <CoSimulation_StandAlone>
+    <Capabilities
+      canHandleVariableCommunicationStepSize="true"
+      canHandleEvents="true"/>
+  </CoSimulation_StandAlone>
+</Implementation>
+
+</fmiModelDescription>
