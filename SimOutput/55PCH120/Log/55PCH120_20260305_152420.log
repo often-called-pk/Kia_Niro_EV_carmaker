@@ -1,0 +1,141 @@
+APPLICATION	CarMaker 14.1.1 - Car_Generic #4 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:59:59
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-05 15:24:20
+TIME	0.000
+SIM_END			0s	0m
+IDLE	15:24:21
+SIM_START	Initial_model	2026-03-05 15:24:22
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	223.745
+SIM_END		Initial_model	223.742s	894.84m
+TIME	251.705
+SIM_START	Initial_model	2026-03-05 15:29:48
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	1092.149
+SIM_END		Initial_model	1092.15s	4420.48m
+TIME	1133.890
+SIM_START	Initial_model	2026-03-05 15:40:26
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	38.929
+ERROR		Vehicle leaves road at about x=260.983, y=-332.451 TireNo=0
+SIM_ABORT	Initial_model	38.93s	448.391m
+SIM_START	Initial_model	2026-03-05 15:40:48
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	38.929
+ERROR		Vehicle leaves road at about x=260.983, y=-332.451 TireNo=0
+SIM_ABORT	Initial_model	38.93s	448.391m
+TIME	85.091
+SIM_START	Initial_model	2026-03-05 15:48:39
+TIME	0.003
+ERROR		PowerTrain.TCU Auto_AMT: none friction clutch within the gearbox model. Please select a gearbox model with integrated friction clutch (Automated Manual Transmission)
+SIM_ABORT	Initial_model	0s	448.391m
+TIME	4.216
+SIM_START	Initial_model	2026-03-05 15:49:20
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.810
+SIM_END		Initial_model	721.808s	13350.2m
+TIME	1134.191
+SIM_START	Initial_model	2026-03-05 17:00:30
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.816
+SIM_END		Initial_model	721.808s	13350.2m
+TIME	739.664
+SIM_START	Initial_model	2026-03-05 17:03:46
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.816
+SIM_END		Initial_model	721.808s	13350.2m
+TIME	915.726
+SIM_START	Initial_model	2026-03-05 17:36:24
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.952
+SIM_END		Initial_model	721.95s	13350.1m
+TIME	2809.185
+SIM_START	Initial_model	2026-03-05 23:26:04
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.573
+SIM_END		Initial_model	721.565s	13349.9m
+TIME	881.693
+SIM_START	Initial_model	2026-03-05 23:53:04
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+TIME	753.335
+SIM_START	Initial_model	2026-03-05 23:58:42
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.606
+SIM_END		Initial_model	721.598s	13350.4m
+TIME	725.807
+SIM_START	Initial_model	2026-03-05 23:59:44
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.606
+SIM_END		Initial_model	721.598s	13350.4m
+TIME	750.252
+SIM_START	Initial_model	2026-03-06 00:04:50
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.606
+SIM_END		Initial_model	721.598s	13350.4m
+TIME	743.832
+SIM_START	Initial_model	2026-03-06 00:08:51
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	181.218
+SIM_END		Initial_model	181.21s	2664.52m
+TIME	186.897
+SIM_START	Initial_model	2026-03-06 00:09:55
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+TIME	879.221
+SIM_START	Initial_model	2026-03-06 00:36:31
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+TIME	724.839
+SIM_START	Initial_model	2026-03-06 00:37:22
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+SIM_START	Initial_model	2026-03-06 00:37:48
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+TIME	777.734
+SHUTDOWN	CarMaker quick shutdown initiated
+

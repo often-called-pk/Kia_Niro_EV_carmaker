@@ -1,0 +1,10 @@
+APPLICATION	CarMaker 14.1.1 - Car_Generic #4 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:59:59
+ 
+		I/O Configuration: default
+ERROR		One or more of the following features not licensed: extended
+		System: 55pch120 sysid 306218915 ether d8:bb:c1:e8:f3:71
+		License file: C:\IPG\etc\Licenses
+		
+ERROR		FATAL ERROR - Application stopped
+		Eliminate the error and restart the application

@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
 FileIdent = CarMaker-Car 14
-FileCreator = CarMaker Office Extended 14.1.1
+FileCreator = CarMaker Office 14.1.1
 
 
 ## Assembly ##############################################################
@@ -8,7 +8,7 @@ FileCreator = CarMaker Office Extended 14.1.1
 RefPointInputSystem = 0.0 0.0 0.0
 Description:
 	Generated - not validated - Compact Car
-	FileCreator CarMaker Office/Vehicle Data Set Generator 2026-03-03 17:23:53
+	FileCreator CarMaker Office/Vehicle Data Set Generator 2026-03-04 21:03:32
 	driveline front drive
 	engine power 150.0 kW (204 PS) at 6000.0 rpm
 	max. torque 255.0 Nm at 6000.0 rpm
@@ -18,7 +18,7 @@ Description:
 	track width front 1571.0 mm
 	track width rear 1581.0 mm
 	rear overhang 805.0 mm
-	tire 215/55 R17
+	tire 205/55 R16
 
 Eng.Kind = Rigid
 Eng.Joint.pos = 0.0 0.0 0.0
@@ -26,36 +26,36 @@ Eng.Orientation = 0.0 0.0 0.0
 
 Hitch.System =
 Hitch.pos = -0.1 0.0 0.4
-Jack.fl.pos = 3.068 0.781 0.304
-Jack.fr.pos = 3.068 -0.781 0.304
-Jack.rl.pos = 1.262 0.782 0.304
-Jack.rr.pos = 1.262 -0.782 0.304
+Jack.fl.pos = 3.093 0.782 0.288
+Jack.fr.pos = 3.093 -0.782 0.288
+Jack.rl.pos = 1.237 0.783 0.288
+Jack.rr.pos = 1.237 -0.783 0.288
 Virtual.PoA = 0.0 0.0 0.0
 
-WheelCarrier.fl.mass = 33.969
-WheelCarrier.fl.I = 0.356 0.356 0.356 -0.0 -0.0 -0.0
-WheelCarrier.fl.pos = 4.026 0.839 0.330
-WheelCarrier.fr.mass = 33.969
-WheelCarrier.fr.I = 0.356 0.356 0.356 -0.0 -0.0 -0.0
-WheelCarrier.fr.pos = 4.026 -0.839 0.330
-WheelCarrier.rl.mass = 21.506
-WheelCarrier.rl.I = 0.183 0.183 0.183 -0.0 -0.0 -0.0
-WheelCarrier.rl.pos = 0.972 0.844 0.330
-WheelCarrier.rr.mass = 21.506
-WheelCarrier.rr.I = 0.183 0.183 0.183 -0.0 -0.0 -0.0
-WheelCarrier.rr.pos = 0.972 -0.844 0.330
-Wheel.fl.mass = 28.265
-Wheel.fl.I = 0.769 1.537 0.769
-Wheel.fl.pos = 4.026 0.839 0.330
-Wheel.fr.mass = 28.265
-Wheel.fr.I = 0.769 1.537 0.769
-Wheel.fr.pos = 4.026 -0.839 0.330
-Wheel.rl.mass = 25.219
-Wheel.rl.I = 0.743 1.486 0.743
-Wheel.rl.pos = 0.972 0.844 0.330
-Wheel.rr.mass = 25.219
-Wheel.rr.I = 0.743 1.486 0.743
-Wheel.rr.pos = 0.972 -0.844 0.330
+WheelCarrier.fl.mass = 36.949
+WheelCarrier.fl.I = 0.343 0.343 0.343 -0.0 -0.0 -0.0
+WheelCarrier.fl.pos = 3.692 0.840 0.315
+WheelCarrier.fr.mass = 36.949
+WheelCarrier.fr.I = 0.343 0.343 0.343 -0.0 -0.0 -0.0
+WheelCarrier.fr.pos = 3.692 -0.840 0.315
+WheelCarrier.rl.mass = 24.138
+WheelCarrier.rl.I = 0.182 0.182 0.182 -0.0 -0.0 -0.0
+WheelCarrier.rl.pos = 0.972 0.844 0.315
+WheelCarrier.rr.mass = 24.138
+WheelCarrier.rr.I = 0.182 0.182 0.182 -0.0 -0.0 -0.0
+WheelCarrier.rr.pos = 0.972 -0.844 0.315
+Wheel.fl.mass = 25.285
+Wheel.fl.I = 0.613 1.225 0.613
+Wheel.fl.pos = 3.692 0.840 0.315
+Wheel.fr.mass = 25.285
+Wheel.fr.I = 0.613 1.225 0.613
+Wheel.fr.pos = 3.692 -0.840 0.315
+Wheel.rl.mass = 22.587
+Wheel.rl.I = 0.592 1.185 0.592
+Wheel.rl.pos = 0.972 0.844 0.315
+Wheel.rr.mass = 22.587
+Wheel.rr.I = 0.592 1.185 0.592
+Wheel.rr.pos = 0.972 -0.844 0.315
 
 PowerTrain.Engine.Bdy.pos = 0.0 0.0 0.0
 PowerTrain.Engine.Bdy.Ori = 0.0 0.0 0.0
@@ -128,22 +128,22 @@ nAxle = 2
 VehicleModel.Kind = RigidBody
 VehicleModel.Mode = BodyA
 Body.mass = 1552.1
-Body.I = 606.71 2041.4 2169.9 -0.0 -0.0 -0.0
-Body.pos = 2.479 0.0 0.638
-Flex.JointFr1Fr1B.pos = 2.479 0.0 0.638
+Body.I = 606.71 2041.2 2169.7 -0.0 -0.0 -0.0
+Body.pos = 2.479 0.0 0.64
+Flex.JointFr1Fr1B.pos = 2.479 0.0 0.64
 Flex.JointFr1Fr1B.Kind = Coeff
-Flex.JointFr1Fr1B.k.x = 23795.0
+Flex.JointFr1Fr1B.k.x = 23802.0
 Flex.JointFr1Fr1B.k.y = 75491.0
 Flex.JointFr1Fr1B.k.x.Amplify = 1.0
 Flex.JointFr1Fr1B.k.y.Amplify = 1.0
-Flex.JointFr1Fr1B.d.x = 1189.8
+Flex.JointFr1Fr1B.d.x = 1190.1
 Flex.JointFr1Fr1B.d.y = 3774.6
 Flex.JointFr1Fr1B.d.x.Amplify = 1.0
 Flex.JointFr1Fr1B.d.y.Amplify = 1.0
 
 Movie.Skin.FName =
 Picture.PicFName = kia_niro_ev_1.tcl
-Vehicle.OuterSkin = 0.0 0.912 0.304 4.42 -0.912 1.57
+Vehicle.OuterSkin = 0.0 0.912 0.288 4.42 -0.912 1.57
 
 Aero.Kind = Coeff6x1 1
 Aero.Marker.pos = 4.28 0.0 0.6
@@ -194,7 +194,10 @@ Vhclbody.Comment:
 ## Suspensions ###########################################################
 SuspF.Spring.Kind = Hookean 1
 SuspF.Spring.Amplify = 1.0
-SuspF.Spring = 25000.0
+SuspF.Spring:
+	0.0 0.0
+	0.1 4242.5
+	1.0 42425.0
 SuspF.Parasitic.Stiffness.Kind =
 SuspF.Parasitic.Friction.Kind =
 SuspF.Damper.Kind = Newtonian 1
@@ -244,11 +247,11 @@ SuspF.Com.N = 0
 SuspF.Kin.0.Kind = Linear2D 1
 SuspF.Kin.0.ValidSide = left+right
 SuspF.Kin.0.InputSide = left
-SuspF.Kin.0.L.tx = 0.0 0.023 -0.331
-SuspF.Kin.0.L.ty = 0.0 -0.015 -0.006
+SuspF.Kin.0.L.tx = 0.0 0.023 -0.31
+SuspF.Kin.0.L.ty = 0.0 -0.011 -0.014
 SuspF.Kin.0.L.tz = 0.0 1.0 -0.033
 SuspF.Kin.0.L.rx = 0.013 0.241 -0.473
-SuspF.Kin.0.L.ry = 0.0 -0.046 -1.293
+SuspF.Kin.0.L.ry = 0.0 -0.049 -1.293
 SuspF.Kin.0.L.rz = -0.0 0.131 5.0
 SuspF.Kin.0.L.lSpring = 0.0 -1.0 0.0
 SuspF.Kin.0.L.lDamp = 0.0 -1.0 0.0
@@ -257,7 +260,10 @@ SuspF.Kin.0.L.lStabi = 0.0 1.0 0.0
 SuspF.WhlBearing.On = 0
 SuspR.Spring.Kind = Hookean 1
 SuspR.Spring.Amplify = 1.0
-SuspR.Spring = 30000.0
+SuspR.Spring:
+	0.0 0.0
+	0.1 4712.5
+	1.0 47125.0
 SuspR.Parasitic.Stiffness.Kind =
 SuspR.Parasitic.Friction.Kind =
 SuspR.Damper.Kind = Newtonian 1
@@ -316,10 +322,10 @@ SuspR.Kin.0.Kind = Linear2D 1
 SuspR.Kin.0.ValidSide = left+right
 SuspR.Kin.0.InputSide = left
 SuspR.Kin.0.L.tx = 0.0 -0.002 0.0
-SuspR.Kin.0.L.ty = 0.0 0.068 0.0
+SuspR.Kin.0.L.ty = 0.0 0.072 0.0
 SuspR.Kin.0.L.tz = 0.0 1.0 0.0
 SuspR.Kin.0.L.rx = 0.027 0.267 0.0
-SuspR.Kin.0.L.ry = 0.0 1.046 0.0
+SuspR.Kin.0.L.ry = 0.0 1.106 0.0
 SuspR.Kin.0.L.rz = -0.003 -0.084 0.0
 SuspR.Kin.0.L.lSpring = 0.0 -1.0 0.0
 SuspR.Kin.0.L.lDamp = 0.0 -1.0 0.0
@@ -347,7 +353,7 @@ Susp.Comment:
 ## Steering ##############################################################
 Steering.Kind = GenAngle 1
 Steering.Comment:
-Steering.Rack2StWhl = 138.71
+Steering.Rack2StWhl = 100
 
 
 ## Tires #################################################################
@@ -371,7 +377,7 @@ Brake.System.PedalForce2pMC = 0.4
 Brake.System.tResp = 0.005
 Brake.System.tBuildUp = 0.08
 Brake.System.pWB2Trq = 11.063 11.063 5.531 5.531
-Brake.System.Park.Torque_max = 0.0 0.0 2114.3 2114.3
+Brake.System.Park.Torque_max = 0.0 0.0 1999.1 1999.1
 Brake.Comment:
 
 
@@ -382,11 +388,8 @@ PowerTrain.OSRate = 5
 PowerTrain.nMotor = 1
 
 PowerTrain.Gearbox.0.Kind = NoGearbox 1
-
-
-## Additional Parameters #################################################
 PowerTrain.Gearbox.0.I_in = 0.001
-PowerTrain.Gearbox.0.I_out = 0.024
+PowerTrain.Gearbox.0.I_out = 0.016
 
 PowerTrain.DL.Kind = GenAxle 1
 PowerTrain.DL.FAxle.DrvSrc = Diff 0
@@ -422,7 +425,7 @@ PowerTrain.Motor.Gen.EtaKind = Value
 PowerTrain.Motor.Gen.Eta = 0.95
 PowerTrain.Motor.Bdy.mass = 0.0
 PowerTrain.Motor.Bdy.I = 0.0 0.0 0.0
-PowerTrain.Inverter.0.Kind = Mapping 1
+PowerTrain.Inverter.0.Kind =
 PowerTrain.Inverter.0.PowerLoss:
 	0 10 5
 	0 150 10
@@ -441,7 +444,7 @@ PowerTrain.Inverter.0.PowerLoss:
 	4000 300 45
 PowerTrain.Control.Kind = BEV 1
 PowerTrain.ControlOSM.Kind = Generic 1
-PowerTrain.Control.StartEngineWithSST = 1
+PowerTrain.Control.StartEngineWithSST = 0
 
 PowerTrain.Control.BattMan.Active = 1
 PowerTrain.Control.BattMan.LV.Pwr_Gen_max = 2.0
@@ -455,18 +458,18 @@ PowerTrain.Control.BattMan.HV.i_Pwr = 1.0
 
 PowerTrain.Control.GasInterpret.Mode = Linear
 PowerTrain.Control.GasInterpret.TrqFull = 255
-PowerTrain.Control.GasInterpret.TrqZero = -10.0
+PowerTrain.Control.GasInterpret.TrqZero = -255
 
 PowerTrain.Control.RegBrake.Active = 1
 PowerTrain.Control.RegBrake.SOC_lim = 75.0
 PowerTrain.Control.RegBrake.SOC_lim_range = 5.0
 PowerTrain.Control.RegBrake.v_lim = 2.0
-PowerTrain.Control.RegBrake.Trq_RegBrake_lim = 2.0
+PowerTrain.Control.RegBrake.Trq_RegBrake_lim = 2
 PowerTrain.Control.RegDrag.Active = 1
 PowerTrain.Control.RegDrag.SOC_lim = 75.0
 PowerTrain.Control.RegDrag.SOC_lim_range = 5.0
 PowerTrain.Control.RegDrag.v_lim = 5.0
-PowerTrain.Control.RegDrag.Trq_RegDrag_lim = 2.0
+PowerTrain.Control.RegDrag.Trq_RegDrag_lim = 2
 
 PowerTrain.TCU.Kind =
 PowerTrain.MCU.Kind = Basic 1
@@ -496,23 +499,31 @@ PowerTrain.PowerSupply.BattLV.C1 = 4074.0
 PowerTrain.PowerSupply.BattLV.C2 = 82000.0
 PowerTrain.PowerSupply.BattLV.VoltCorr_SOC.Active = 0
 PowerTrain.PowerSupply.BattLV.PwrMax.Kind = Const
-PowerTrain.PowerSupply.BattLV.PwrMax.Pwr_max = 12.0
+PowerTrain.PowerSupply.BattLV.PwrMax.Pwr_max = 2.0
 PowerTrain.PowerSupply.BattLV.Bdy.0.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.0.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.mass = 0.0
 PowerTrain.PowerSupply.BattLV.Bdy.1.I = 0.0 0.0 0.0
 PowerTrain.PowerSupply.BattHV.Kind = Chen 1
 PowerTrain.PowerSupply.BattHV.Capacity = 180.9
-PowerTrain.PowerSupply.BattHV.Voltage_oc = 358
-PowerTrain.PowerSupply.BattHV.SOC = 70
-PowerTrain.PowerSupply.BattHV.SOC_min = 20
-PowerTrain.PowerSupply.BattHV.SOC_max = 80
+PowerTrain.PowerSupply.BattHV.Voltage_oc = 400.0
+PowerTrain.PowerSupply.BattHV.SOC = 70.0
+PowerTrain.PowerSupply.BattHV.SOC_min = 20.0
+PowerTrain.PowerSupply.BattHV.SOC_max = 80.0
 PowerTrain.PowerSupply.BattHV.R0 = 0.0012
 PowerTrain.PowerSupply.BattHV.R1 = 0.0004
 PowerTrain.PowerSupply.BattHV.R2 = 0.0011
 PowerTrain.PowerSupply.BattHV.C1 = 4074.0
 PowerTrain.PowerSupply.BattHV.C2 = 82000.0
-PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Active = 0
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Active = 1
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Amplify = 1.0
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC:
+	0.00 0.000
+	6.25 0.625
+	31.25 0.8125
+	62.50 0.875
+	93.75 1.000
+	100.00 1.125
 PowerTrain.PowerSupply.BattHV.PwrMax.Kind = Const
 PowerTrain.PowerSupply.BattHV.PwrMax.Pwr_max = 200
 PowerTrain.PowerSupply.BattHV.Bdy.0.mass = 0.0
@@ -536,7 +547,7 @@ SensorCluster.N = 0
 Sensor.N = 1
 Sensor.0.name = VehSensor_0
 Sensor.0.rot = 0.0 0.0 0.0
-Sensor.0.pos = 2.165 0.0 0.638
+Sensor.0.pos = 2.165 0.0 0.64
 Sensor.0.Visualization = 1
 Sensor.0.VisColor = 0.0 0.0 0.0
 Sensor.0.Mounting = Fr1A
@@ -609,7 +620,7 @@ CarGen.Vehicle.WheelBase = 2720.0
 CarGen.Vehicle.TrackFront = 1571.0
 CarGen.Vehicle.TrackRear = 1581.0
 CarGen.Vehicle.RearOverhang = 805.0
-CarGen.Vehicle.WheelSize = 215 55 17
+CarGen.Vehicle.WheelSize = 205 55 16
 CarGen.Engine.NomPower = 150.0
 CarGen.Engine.nNomPower = 6000.0
 CarGen.Engine.MaxTorque = 255.0

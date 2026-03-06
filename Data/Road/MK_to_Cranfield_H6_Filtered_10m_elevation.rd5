@@ -5,10 +5,11 @@ LibVersion = 14.1.1
 Country = GBR GBR
 nLinks = 1
 nJunctions = 0
-nObjects = 1179
-nRoutes = 0
+nObjects = 1181
+nRoutes = 1
 RoadNetworkLength = 13366.9364228996
 BBox = -14.5535215360555 10026.6117935914 -364.855570157385 4486.15268435377 48.0299271173904 118.096856779273
+Route.0.Length = 13366.9364228996
 GCSProjection.Method = PROJ
 GCSProjection.PROJ.String = +proj=tmerc +lat_0=52.03435 +lon_0=-0.7741 +k_0=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs
 RST.Unit = kmh
@@ -1177,6 +1178,11 @@ LanePath.0 = 1139 1132 2 10 0.1 0.1 -1 -1
 LanePath.1 = 1148 1141 0.25 10 0.1 0.1 -1 -1
 LanePath.2 = 1157 1150 2 10 0.1 0.1 -1 -1
 LanePath.3 = 1166 1159 0.25 10 0.1 0.1 -1 -1
+Route.0.ID = 0
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 4
+Route.0.DrvPath:
+	1139
 RL.2.RoadMarking.0.ID = 1131 1130
 RL.2.RoadMarking.0 = 0 0 0 1 0 0 0.15 0 2 0 0 2 4 0 0 0
 RL.2.RoadMarking.1.ID = 1140 1132

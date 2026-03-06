@@ -1,0 +1,106 @@
+APPLICATION	CarMaker 14.1.1 - Car_Generic #4 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:59:59
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-04 20:30:37
+TIME	0.000
+SIM_END			0s	0m
+IDLE	20:30:37
+SIM_START	Initial_model	2026-03-04 20:30:39
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	39.194
+ERROR		Vehicle leaves road at about x=259.494, y=-333.635 TireNo=0
+SIM_ABORT	Initial_model	39.195s	450.48m
+TIME	65.822
+SIM_START	Initial_model	2026-03-04 20:35:14
+TIME	0.589
+SIM_END		Initial_model	0s	0m
+SIM_START	Initial_model	2026-03-04 20:35:19
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	39.194
+ERROR		Vehicle leaves road at about x=259.494, y=-333.635 TireNo=0
+SIM_ABORT	Initial_model	39.195s	450.48m
+TIME	74.277
+SIM_START	Initial_model	2026-03-04 20:41:19
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	726.400
+SIM_END		Initial_model	726.398s	13347.2m
+TIME	817.906
+SIM_START	Initial_model	2026-03-04 20:59:02
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	39.194
+ERROR		Vehicle leaves road at about x=259.494, y=-333.635 TireNo=0
+SIM_ABORT	Initial_model	39.195s	450.48m
+TIME	84.430
+SIM_START	Initial_model	2026-03-04 21:06:44
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	5870.167
+SIM_END		Initial_model	5870.16s	13359.1m
+TIME	5919.450
+SIM_START	Initial_model	2026-03-04 21:17:57
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	113.402
+ERROR		Vehicle leaves road at about x=257.494, y=-335.374 TireNo=0
+SIM_ABORT	Initial_model	113.403s	448.067m
+TIME	131.217
+SIM_START	Initial_model	2026-03-04 21:21:00
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	113.402
+ERROR		Vehicle leaves road at about x=257.494, y=-335.374 TireNo=0
+SIM_ABORT	Initial_model	113.403s	448.067m
+TIME	118.888
+SIM_START	Initial_model	2026-03-04 21:21:58
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	115.004
+ERROR		Vehicle leaves road at about x=260.464, y=-332.855 TireNo=0
+SIM_ABORT	Initial_model	115.005s	454.671m
+TIME	118.945
+SIM_START	Initial_model	2026-03-04 21:22:41
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	115.004
+ERROR		Vehicle leaves road at about x=260.464, y=-332.855 TireNo=0
+SIM_ABORT	Initial_model	115.005s	454.671m
+TIME	123.321
+SIM_START	Initial_model	2026-03-04 21:24:07
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	110.360
+ERROR		Vehicle leaves road at about x=254.269, y=-353.378 TireNo=1
+SIM_ABORT	Initial_model	110.361s	436.073m
+TIME	121.147
+SIM_START	Initial_model	2026-03-04 21:25:59
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	110.360
+ERROR		Vehicle leaves road at about x=254.269, y=-353.378 TireNo=1
+SIM_ABORT	Initial_model	110.361s	436.073m
+TIME	119.068
+SIM_START	Initial_model	2026-03-04 21:27:29
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	3294.127
+SIM_END		Initial_model	3294.12s	13355.3m
+TIME	3423.023
+SHUTDOWN	CarMaker quick shutdown initiated
+
