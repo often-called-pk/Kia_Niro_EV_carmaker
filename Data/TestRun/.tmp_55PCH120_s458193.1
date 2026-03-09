@@ -15,10 +15,16 @@ Road.LibVersion = 14.1.1
 Road.Country = GBR GBR
 Road.nLinks = 36
 Road.nJunctions = 0
-Road.nObjects = 3455
-Road.nRoutes = 0
+Road.nObjects = 3467
+Road.nRoutes = 6
 Road.RoadNetworkLength = 13366.7745262729
-Road.BBox = -14.5535215360555 10026.6117935914 -364.855570157385 4486.18100934603 -11 118.096857492401
+Road.BBox = -14.5535215360555 10026.6117935914 -364.855570157385 4486.18100934603 48.0272880484964 118.096857492401
+Road.Route.0.Length = 206.145565602703
+Road.Route.1.Length = 55.2720872199651
+Road.Route.2.Length = 159.592088123102
+Road.Route.3.Length = 27.3016870245162
+Road.Route.4.Length = 70.9870244898609
+Road.Route.5.Length = 77.3195768216647
 Road.GCSProjection.Method = PROJ
 Road.GCSProjection.PROJ.String = +proj=tmerc +lat_0=52.03435 +lon_0=-0.7741 +k_0=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs
 Road.RST.Unit = mph
@@ -2909,6 +2915,36 @@ Road.LanePath.140 = 1794 589 2 10 0.1 0.1 -1 -1
 Road.LanePath.141 = 2041 1795 0.25 10 0.1 0.1 -1 -1
 Road.LanePath.142 = 2050 2043 2 10 0.1 0.1 -1 -1
 Road.LanePath.143 = 2058 2051 0.25 10 0.1 0.1 -1 -1
+Route.0.ID = 107
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 108
+Route.0.DrvPath:
+	1139
+Route.1.ID = 109
+Route.1.Name = Route_1
+Route.1.DrvPath.ID = 110
+Route.1.DrvPath:
+	1231
+Route.2.ID = 111
+Route.2.Name = Route_2
+Route.2.DrvPath.ID = 112
+Route.2.DrvPath:
+	1294
+Route.3.ID = 113
+Route.3.Name = Route_3
+Route.3.DrvPath.ID = 114
+Route.3.DrvPath:
+	1196
+Route.4.ID = 115
+Route.4.Name = Route_4
+Route.4.DrvPath.ID = 116
+Route.4.DrvPath:
+	1807
+Route.5.ID = 117
+Route.5.Name = Route_5
+Route.5.DrvPath.ID = 118
+Route.5.DrvPath:
+	65
 Road.RL.2.RoadMarking.0.ID = 1131 1130
 Road.RL.2.RoadMarking.0 = 0 0 0 1 0 0 0.15 0 2 0 0 2 4 0 0 0
 Road.RL.2.RoadMarking.1.ID = 1140 1132
@@ -3130,9 +3166,9 @@ Vehicle.DriverTemplate.FName = TestRun
 Vehicle.KnowledgeTemplate.Name =
 Vehicle.UserDriver.Long.FName =
 Vehicle.Routing.Type = Route
-Vehicle.Routing.ObjId = -1
+Vehicle.Routing.ObjId = 107
 Vehicle.StartPos.Type = Route
-Vehicle.StartPos.ObjId = -1
+Vehicle.StartPos.ObjId = 107
 Vehicle.StartPos = 0.0 0.0
 Vehicle.StartPos.Orientation.Type = Relative
 Vehicle.StartPos.Orientation = 0.0
@@ -3231,7 +3267,7 @@ Driver.Acc.UseVelDepend = 0
 Driver.Acc.Factor.Accel = 1.0
 Driver.Acc.Factor.Decel = 1.0
 Driver.Acc.Factor.Lateral = 0.95
-Driver.Vel.CruisingSpeed = 150.0
+Driver.Vel.CruisingSpeed = 150
 Driver.Vel.dtMinAccelDecel = 4
 Driver.Vel.Random.Amp = 0.0
 Driver.Vel.Random.Freq = 1.0
@@ -3276,12 +3312,12 @@ Driver.Lat.StTorqueRequestSensitivity =
 Driver.Lat.StTorqueRequestCompCoef =
 Driver.Lat.StWhlAngleMax = 630
 Driver.Lat.StWhlAngleVelMax = 500
-Driver.Lat.StWhlAngleAccMax = 3000.0
+Driver.Lat.StWhlAngleAccMax = 3000
 Driver.Lat.StWhlTorqueMax = 20.0
 Driver.Lat.StWhlTorqueVelMax = 1000.0
 Driver.Lat.SteeringAmp = 1.0
 Driver.DecShift.UseBrakePark = 0
-Driver.DecShift.tSwitchGear = 0.0
+Driver.DecShift.tSwitchGear = 1.0
 Driver.DecShift.AsymClutch = 0.0
 Driver.DecShift.AsymClutchDown = 0.0
 Driver.DecShift.AsymShift = 0.0

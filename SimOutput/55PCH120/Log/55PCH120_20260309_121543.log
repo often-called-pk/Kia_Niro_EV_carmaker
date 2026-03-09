@@ -1,0 +1,74 @@
+APPLICATION	CarMaker 14.1.1 - Car_Generic #4 (win64-14.1.1)
+COMPILED	jetbrains@2dc68d98a08b 2025-07-07 14:59:59
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-09 12:15:43
+TIME	0.000
+SIM_END			0s	0m
+IDLE	12:15:44
+TIME	1605.410
+SIM_START	Initial_model	2026-03-09 16:43:18
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+SIM_START	Initial_model	2026-03-09 16:43:28
+TIME	32.442
+ERROR		Test Run file doesn't exist, file '.tmp_55PCH120_s458193.1'
+TIME	0.004
+SIM_ABORT	Initial_model	0s	201.521m
+SIM_START	Initial_model	2026-03-09 16:43:28
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+TIME	34.619
+SIM_START	Initial_model	2026-03-09 16:43:59
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+TIME	159.145
+SIM_START	Initial_model	2026-03-09 17:05:16
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+SIM_START	Initial_model	2026-03-09 17:05:26
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+TIME	455.001
+SIM_START	Initial_model	2026-03-09 18:16:01
+TIME	0.002
+ERROR		Vehicle StartPos: Unknown route with ObjId 9 (type 'Route')
+SIM_ABORT	Initial_model	0s	201.521m
+TIME	8.348
+SIM_START	Initial_model	2026-03-09 18:17:24
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	721.537
+SIM_END		Initial_model	721.529s	13350.3m
+TIME	1389.081
+SIM_START	Initial_model	2026-03-09 20:09:00
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+SIM_START	Initial_model	2026-03-09 20:09:10
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	31.749
+SIM_END		Initial_model	31.741s	201.521m
+TIME	474.264
+SHUTDOWN	CarMaker quick shutdown initiated
+
