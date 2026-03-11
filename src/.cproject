@@ -42,7 +42,7 @@
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1627906511" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.384777208" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
-							<tool command="g++" commandLinePattern="$Q $(CCC) $(CFLAGS) $(LDFLAGS) ${FLAGS} -o $@ $(OBJS_$(ARCH)) $(OBJ_APP) $(OBJS) $(LIBS) $(LD_LIBS) $(LD_LIBS_OS)" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.linker.714958568" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
+							<tool command="g++" commandLinePattern="$Q $(CCC) $(CFLAGS) $(LDFLAGS) ${FLAGS} -o $@ $(OBJS_$(ARCH)) $(OBJ_APP) $(OBJS) $(LIBS) $(LD_LIBS) $(LDXX_LIBS_OS)" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.linker.714958568" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
 								<option id="gnu.cpp.link.option.flags.1991377741" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-static-libgcc" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1156063552" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(OBJS_$(ARCH))"/>
@@ -51,7 +51,7 @@
 									<additionalInput kind="additionalinputdependency" paths="$(LD_LIBS_MK)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 									<additionalInput kind="additionalinput" paths="$(LD_LIBS)"/>
-									<additionalInput kind="additionalinput" paths="$(LD_LIBS_OS)"/>
+									<additionalInput kind="additionalinput" paths="$(LDXX_LIBS_OS)"/>
 								</inputType>
 								<outputType id="cdt.managedbuild.tool.gnu.cpp.linker.output.1897049815" outputPrefix="../" superClass="cdt.managedbuild.tool.gnu.cpp.linker.output"/>
 							</tool>
@@ -62,7 +62,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="IO_CAN*.c|*_rtw/*|app_tmp.c|tire_lin.c|app_tmp_????????.c|CM_Main_????????.c|CM_Vehicle_????????.c|IO_????????.c|User_????????.c|app_tmp_????????_*.c|CM_Main_????????_*.c|CM_Vehicle_????????_*.c|IO_????????_*.c|User_????????_*.c|bhk_CarMaker_rtw|ExtraModels/*.c|.settings|.metadata" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="IO_CAN*.c|IO_CAN*.cpp|*_rtw/*|app_tmp.c|app_tmp.cpp|tire_lin.c|app_tmp_????????.c|app_tmp_????????.cpp|CM_Main_????????.c|CM_Main_????????.cpp|CM_Vehicle_????????.c|CM_Vehicle_????????.cpp|IO_????????.c|IO_????????.cpp|User_????????.c|User_????????.cpp|app_tmp_????????_*.c|app_tmp_????????_*.cpp|CM_Main_????????_*.c|CM_Main_????????_*.cpp|CM_Vehicle_????????_*.c|CM_Vehicle_????????_*.cpp|IO_????????_*.c|IO_????????_*.cpp|User_????????_*.c|User_????????_*.cpp|ExtraModels/*.c|ExtraModels/*.cpp|.settings|.metadata" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -107,7 +107,7 @@
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1844079347" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.cross.c.linker.1296172108" name="Cross GCC Linker" superClass="cdt.managedbuild.tool.gnu.cross.c.linker"/>
-							<tool commandLinePattern="$Q $(CCC) $(CFLAGS) $(LDFLAGS) ${FLAGS} -o $@ $(OBJS_$(ARCH)) $(OBJ_APP) $(OBJS) $(LIBS) $(LD_LIBS) $(LD_LIBS_OS)" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1796404901" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
+							<tool commandLinePattern="$Q $(CCC) $(CFLAGS) $(LDFLAGS) ${FLAGS} -o $@ $(OBJS_$(ARCH)) $(OBJ_APP) $(OBJS) $(LIBS) $(LD_LIBS) $(LDXX_LIBS_OS)" errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="cdt.managedbuild.tool.gnu.cross.cpp.linker.1796404901" name="Cross G++ Linker" superClass="cdt.managedbuild.tool.gnu.cross.cpp.linker">
 								<option id="gnu.cpp.link.option.flags.1991377741" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="-static-libgcc" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1349221627" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(OBJS_$(ARCH))"/>
@@ -116,7 +116,7 @@
 									<additionalInput kind="additionalinputdependency" paths="$(LD_LIBS_MK)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 									<additionalInput kind="additionalinput" paths="$(LD_LIBS)"/>
-									<additionalInput kind="additionalinput" paths="$(LD_LIBS_OS)"/>
+									<additionalInput kind="additionalinput" paths="$(LDXX_LIBS_OS)"/>
 								</inputType>
 								<outputType id="cdt.managedbuild.tool.gnu.cpp.linker.output.328323061" outputPrefix="../" superClass="cdt.managedbuild.tool.gnu.cpp.linker.output"/>
 							</tool>
@@ -127,7 +127,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="*_rtw/*|app_tmp.c|tire_lin.c|app_tmp_????????.c|CM_Main_????????.c|CM_Vehicle_????????.c|IO_????????.c|User_????????.c|app_tmp_????????_*.c|CM_Main_????????_*.c|CM_Vehicle_????????_*.c|IO_????????_*.c|User_????????_*.c|bhk_CarMaker_rtw|ExtraModels/*.c|.settings|.metadata" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="IO_CAN*.c|IO_CAN*.cpp|*_rtw/*|app_tmp.c|app_tmp.cpp|tire_lin.c|app_tmp_????????.c|app_tmp_????????.cpp|CM_Main_????????.c|CM_Main_????????.cpp|CM_Vehicle_????????.c|CM_Vehicle_????????.cpp|IO_????????.c|IO_????????.cpp|User_????????.c|User_????????.cpp|app_tmp_????????_*.c|app_tmp_????????_*.cpp|CM_Main_????????_*.c|CM_Main_????????_*.cpp|CM_Vehicle_????????_*.c|CM_Vehicle_????????_*.cpp|IO_????????_*.c|IO_????????_*.cpp|User_????????_*.c|User_????????_*.cpp|ExtraModels/*.c|ExtraModels/*.cpp|.settings|.metadata" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

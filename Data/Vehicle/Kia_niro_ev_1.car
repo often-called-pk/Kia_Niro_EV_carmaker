@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
-FileIdent = CarMaker-Car 14
-FileCreator = CarMaker Office 14.1.1
+FileIdent = CarMaker-Car 15
+FileCreator = CarMaker Office 15.0.1
 
 
 ## Assembly ##############################################################
@@ -388,6 +388,9 @@ PowerTrain.OSRate = 5
 PowerTrain.nMotor = 1
 
 PowerTrain.Gearbox.0.Kind = NoGearbox 1
+
+
+## Additional Parameters #################################################
 PowerTrain.Gearbox.0.I_in = 0.001
 PowerTrain.Gearbox.0.I_out = 0.016
 
@@ -404,6 +407,7 @@ PowerTrain.DL.FDiff.I_Cage = 0.0
 PowerTrain.DL.FDiff.Cpl.Kind =
 PowerTrain.DL.TrqExt2DiffOn = 0
 PowerTrain.DL.TrqExt2WheelOn = 0
+
 PowerTrain.Motor.Kind = Mapping 1
 PowerTrain.Motor.VoltageLevel = HV1
 PowerTrain.Motor.I = 0.002

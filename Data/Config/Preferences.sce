@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
-FileIdent = Scenario-Config 5.0
-FileCreator = CarMaker Office Extended 14.1.1
+FileIdent = Scenario-Config 6.0
+FileCreator = CarMaker Office 15.0.1
 Import.HDLM.ImportByRoute = 0
 Import.HDLM.LatCoord0 =
 Import.HDLM.LonCoord0 =
@@ -106,3 +106,4 @@ Export.ODR.TransformClothoids = 1
 Export.ODR.ExportNames = 1
 Export.ODR.Version = 1.8
 Export.ODR.ExportTreeStrips = 1
+Editor.Interaction.PanMode = slide

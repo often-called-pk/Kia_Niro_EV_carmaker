@@ -1,6 +1,6 @@
 ##
 ## Import Vehicle Data
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## Syntax: Car::Import <FileName> <DataList>
 ##

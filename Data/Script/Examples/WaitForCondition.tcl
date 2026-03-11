@@ -1,6 +1,6 @@
 ##
 ## WaitForCondition.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## This Example shows how to use the WaitForCondition function.               
 ## It is important to note that any variables that are passed in the          

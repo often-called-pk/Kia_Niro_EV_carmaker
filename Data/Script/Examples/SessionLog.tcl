@@ -1,6 +1,6 @@
 ##
 ## SessionLog.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## The example shows the functions used to write to the CarMaker 
 ## Session Log file. 

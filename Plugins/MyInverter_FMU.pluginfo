@@ -1,6 +1,6 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
 FileIdent = CarMaker-PlugInfo 2
-FileCreator = CarMaker Office 13.0 2024-01-16 12:57 TEMPLATE
+FileCreator = CarMaker Office 15.0 TEMPLATE
 
 FMU.Name = MyInverter_FMU
 FMU.Modelclass = PTInverter

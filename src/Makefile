@@ -1,8 +1,8 @@
 #******************************************************************************
-#*  CarMaker - Version 14.1.1
+#*  CarMaker - Version 15.0.1
 #*  Virtual Test Driving
 #*
-#*  Copyright ©1998-2025 IPG Automotive GmbH. All rights reserved.
+#*  Copyright ©1998-2026 IPG Automotive GmbH. All rights reserved.
 #*  www.ipg-automotive.com
 #******************************************************************************
 #**
@@ -11,7 +11,7 @@
 #**
 #******************************************************************************
 
-include C:/IPG/carmaker/win64-14.1.1/include/MakeDefs.win64
+include C:/IPG/carmaker/win64-15.0.1/include/MakeDefs.win64
 
 APP_VER =		"Car_Generic <insert.your.version.no>"
 APP_NAME =		CarMaker.$(ARCH)$(EXE_EXT)
@@ -31,7 +31,7 @@ OBJS =			CM_Main.o CM_Vehicle.o User.o IO.o
 
 ### Linking with RTW-built Simulink models
 
-#MATSUPP_MATVER =	R2021a
+#MATSUPP_MATVER =	R2022b
 #LD_LIBS +=		$(MATSUPP_LIB)
 
 
@@ -42,23 +42,27 @@ OBJS =			CM_Main.o CM_Vehicle.o User.o IO.o
 
 
 default:	$(APP_NAME)
-$(APP_NAME):	$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK) app_tmp.o
+$(APP_NAME):	$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK) app_tmp.o $(MINGW_DLLS)
 	$(QECHO) " LD     $@"
-	$Q $(CC) $(CFLAGS) $(LDFLAGS) -o $@ \
-		$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS) $(LD_LIBS_OS) \
+	$Q $(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@ \
+		$(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS) $(LDXX_LIBS_OS) \
 		app_tmp.o
 	$(SET_EXE_PERMISSIONS) $@
 
 
-install: $(APP_NAME)
+install: $(APP_NAME) $(MINGW_DLLS)
 	$(INSTALL_APP) $(APP_NAME) $(ARCH)
+	$Q cp -t ../bin $(MINGW_DLLS)
 
 clean:
 	-rm -f 	*~ *% *.o core
 
-app_tmp.c: Makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
+app_tmp.cpp: Makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
 	$(QECHO) " MK     $@"
 	$Q $(CREATE_INFO_CMD)
+
+%.dll:	$(MINGW_LIB_DIR)/%.dll
+	$Q cp $< .
 
 depend .depend: Makefile
 	$(QECHO) " MK     $@"

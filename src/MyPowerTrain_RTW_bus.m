@@ -80,6 +80,7 @@ if strcmp(vehicle, 'Motorcycle')
 	    {'Ignition', 	1, 'double', -1, 'real', 'Sample'};
 	    {'OperationState', 	1, 'double', -1, 'real', 'Sample'};
 	    {'OperationError', 	1, 'double', -1, 'real', 'Sample'};
+	    {'SelectorCtrl_Out', 	1, 'double', -1, 'real', 'Sample'};
 	    {'GearNo', 		1, 'double', -1, 'real', 'Sample'};
 	    {'Engine_rotv', 	1, 'double', -1, 'real', 'Sample'};
 	    {'Trq_Supp2Bdy1', 	1, 'cm73DTrq', -1, 'real', 'Sample'};
@@ -325,6 +326,7 @@ else
 	    {'Ignition', 	1, 'double', -1, 'real', 'Sample'};
 	    {'OperationState', 	1, 'double', -1, 'real', 'Sample'};
 	    {'OperationError', 	1, 'double', -1, 'real', 'Sample'};
+	    {'SelectorCtrl_Out', 	1, 'double', -1, 'real', 'Sample'};
 	    {'GearNo', 		1, 'double', -1, 'real', 'Sample'};
 	    {'Engine_rotv', 	1, 'double', -1, 'real', 'Sample'};
 	    {'Trq_Supp2Bdy1', 	1, 'cm73DTrq', -1, 'real', 'Sample'};
@@ -389,3 +391,4 @@ else
     }
     });
 end
+

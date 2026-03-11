@@ -1,6 +1,6 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = CarMaker-PlugInfo 2
-FileCreator = CarMaker 9.0 2020-04-08 12:42 TEMPLATE
+FileCreator = CarMaker 15.0 TEMPLATE
 
 FMU.Name = MySteeringSrc_FMU
 FMU.Modelclass = Steering

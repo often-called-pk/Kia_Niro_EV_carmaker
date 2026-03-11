@@ -1,6 +1,6 @@
 ##
 ## TestManager.tcl
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## This example shows how to automatically create and run a test series with
 ## the help of the new TestManager ScriptControl API.

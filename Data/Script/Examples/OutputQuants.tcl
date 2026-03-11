@@ -1,6 +1,6 @@
 ##
 ## OutputQuants.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## This example shows how the functions that modify the OutputQuantities file
 ## are used, and details how saving the simulation data of the selected 

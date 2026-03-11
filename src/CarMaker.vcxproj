@@ -43,16 +43,16 @@
 
   <ImportGroup Label="PropertySheets" Condition="'$(Platform)'=='x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="C:/IPG/carmaker/win64-14.1.1/include/MSVS_Defs.props" />
+    <Import Project="C:/IPG/carmaker/win64-15.0.1/include/MSVS_Defs.props" />
     <Import Project="./CarMaker.props" />
   </ImportGroup>
 
   <ItemGroup>
-    <ClCompile Include="IO.c" />
-    <ClCompile Include="User.c" />
-    <ClCompile Include="CM_Vehicle.c" />
-    <ClCompile Include="CM_Main.c" />
-    <ClCompile Include="app_tmp.c" />
+    <ClCompile Include="IO.cpp" />
+    <ClCompile Include="User.cpp" />
+    <ClCompile Include="CM_Vehicle.cpp" />
+    <ClCompile Include="CM_Main.cpp" />
+    <ClCompile Include="app_tmp.cpp" />
   </ItemGroup>
 
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

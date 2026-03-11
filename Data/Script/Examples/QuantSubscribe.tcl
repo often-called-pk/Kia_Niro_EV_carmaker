@@ -1,6 +1,6 @@
 ##
 ## QuantSubscribe.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## This example shows how to subscribe to quantities, and also 
 ## how to use the quantity values in a conditional expression. 

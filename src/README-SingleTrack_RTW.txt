@@ -22,7 +22,7 @@ Relevant files and places to look at
     `-- src
 	|-- Makefile
 	|-- README-SingleTrack_RTW.txt
-	|-- User.c
+	|-- User.cpp
 	|-- SingleTrack_RTW.mdl
 	`-- SingleTrack_RTW_CarMaker_rtw
 	    |-- SingleTrack_RTW_wrap.c
@@ -35,7 +35,7 @@ o src/SingleTrack_RTW_CarMaker_rtw/SingleTrack_RTW_wrap.h
   src/SingleTrack_RTW_CarMaker_rtw/SingleTrack_RTW_wrap.c
   The wrapper source code.
 
-o src/User.c
+o src/User.cpp
   #include of the wrapper header file.
   Registration of the SingleTrack_RTW model in function User_Register().
   The corresponding statements are added automatically by the RTW build process.
@@ -63,7 +63,7 @@ Implementation details
 o The model is connected to CarMaker by "registering" it, i.e. adding it to
   the list of available vehicle models. Registering is done in the model
   wrapper's central interface function SingleTrack_RTW_Register(), which is
-  called from User_Register() in src/User.c. Once it is registered, the
+  called from User_Register() in src/User.cpp. Once it is registered, the
   SingleTrack_RTW module can be activated with the right FileIdent entry in
   the vehicle's configuration file. CarMaker then automatically calls the
   functions of our vehicle model using the function pointers in the

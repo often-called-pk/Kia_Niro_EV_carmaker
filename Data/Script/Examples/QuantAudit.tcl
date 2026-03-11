@@ -1,6 +1,6 @@
 ##
 ## StartStop.tcl
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## Some meaningless statistics on lateral acceleration, steering wheel
 ## angle and pylon hits, just to give an idea of how the QuantAudit and

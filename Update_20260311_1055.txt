@@ -1,0 +1,382 @@
+Logfile - Project update to CarMaker Office 15.0.1
+===============================================================================
+
+Start: 2026-03-11 10:55:53
+
+Cleaning up temporary files...
+  Deleting temporary Test Run, Vehicle and Trailer files
+  Deleting temporary files in road cache
+  >> Finished.
+
+Creating source code backup ...
+  Plugins/MyBatteryCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyBatteryCU_FMU_20260311_1055.fmu
+  Plugins/MyBatteryCU_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyBatteryCU_FMU_20260311_1055.pluginfo
+  Plugins/MyBattery_FMU.fmu
+  -  Info: Copied file to Plugins/MyBattery_FMU_20260311_1055.fmu
+  Plugins/MyBattery_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyBattery_FMU_20260311_1055.pluginfo
+  Plugins/MyBrakeSrc_FMU.fmu
+  -  Info: Copied file to Plugins/MyBrakeSrc_FMU_20260311_1055.fmu
+  Plugins/MyBrakeSrc_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyBrakeSrc_FMU_20260311_1055.pluginfo
+  Plugins/MyBrake_FMU.fmu
+  -  Info: Copied file to Plugins/MyBrake_FMU_20260311_1055.fmu
+  Plugins/MyBrake_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyBrake_FMU_20260311_1055.pluginfo
+  Plugins/MyClutch_FMU.fmu
+  -  Info: Copied file to Plugins/MyClutch_FMU_20260311_1055.fmu
+  Plugins/MyClutch_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyClutch_FMU_20260311_1055.pluginfo
+  Plugins/MyDriveLineXWD_FMU.fmu
+  -  Info: Copied file to Plugins/MyDriveLineXWD_FMU_20260311_1055.fmu
+  Plugins/MyDriveLineXWD_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyDriveLineXWD_FMU_20260311_1055.pluginfo
+  Plugins/MyDriveLine_FMU.fmu
+  -  Info: Copied file to Plugins/MyDriveLine_FMU_20260311_1055.fmu
+  Plugins/MyDriveLine_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyDriveLine_FMU_20260311_1055.pluginfo
+  Plugins/MyEngineCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyEngineCU_FMU_20260311_1055.fmu
+  Plugins/MyEngineCU_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyEngineCU_FMU_20260311_1055.pluginfo
+  Plugins/MyEngine_FMU.fmu
+  -  Info: Copied file to Plugins/MyEngine_FMU_20260311_1055.fmu
+  Plugins/MyEngine_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyEngine_FMU_20260311_1055.pluginfo
+  Plugins/MyEnvironment_FMU.fmu
+  -  Info: Copied file to Plugins/MyEnvironment_FMU_20260311_1055.fmu
+  Plugins/MyEnvironment_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyEnvironment_FMU_20260311_1055.pluginfo
+  Plugins/MyGearBox_FMU.fmu
+  -  Info: Copied file to Plugins/MyGearBox_FMU_20260311_1055.fmu
+  Plugins/MyGearBox_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyGearBox_FMU_20260311_1055.pluginfo
+  Plugins/MyGeneric_FMU.fmu
+  -  Info: Copied file to Plugins/MyGeneric_FMU_20260311_1055.fmu
+  Plugins/MyGeneric_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyGeneric_FMU_20260311_1055.pluginfo
+  Plugins/MyInverter_FMU.fmu
+  -  Info: Copied file to Plugins/MyInverter_FMU_20260311_1055.fmu
+  Plugins/MyInverter_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyInverter_FMU_20260311_1055.pluginfo
+  Plugins/MyMotorCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyMotorCU_FMU_20260311_1055.fmu
+  Plugins/MyMotorCU_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyMotorCU_FMU_20260311_1055.pluginfo
+  Plugins/MyMotor_FMU.fmu
+  -  Info: Copied file to Plugins/MyMotor_FMU_20260311_1055.fmu
+  Plugins/MyMotor_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyMotor_FMU_20260311_1055.pluginfo
+  Plugins/MyPTControlOSM_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTControlOSM_FMU_20260311_1055.fmu
+  Plugins/MyPTControlOSM_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPTControlOSM_FMU_20260311_1055.pluginfo
+  Plugins/MyPTControl_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTControl_FMU_20260311_1055.fmu
+  Plugins/MyPTControl_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPTControl_FMU_20260311_1055.pluginfo
+  Plugins/MyPTGenCoupling_FMU.fmu
+  -  Info: Copied file to Plugins/MyPTGenCoupling_FMU_20260311_1055.fmu
+  Plugins/MyPTGenCoupling_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPTGenCoupling_FMU_20260311_1055.pluginfo
+  Plugins/MyPowerSupply_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerSupply_FMU_20260311_1055.fmu
+  Plugins/MyPowerSupply_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPowerSupply_FMU_20260311_1055.pluginfo
+  Plugins/MyPowerTrainXWD_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerTrainXWD_FMU_20260311_1055.fmu
+  Plugins/MyPowerTrainXWD_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPowerTrainXWD_FMU_20260311_1055.pluginfo
+  Plugins/MyPowerTrain_FMU.fmu
+  -  Info: Copied file to Plugins/MyPowerTrain_FMU_20260311_1055.fmu
+  Plugins/MyPowerTrain_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyPowerTrain_FMU_20260311_1055.pluginfo
+  Plugins/MySelectorCtrlMapping_FMU.fmu
+  -  Info: Copied file to Plugins/MySelectorCtrlMapping_FMU_20260311_1055.fmu
+  Plugins/MySelectorCtrlMapping_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySelectorCtrlMapping_FMU_20260311_1055.pluginfo
+  Plugins/MySteeringSrc_FMU.fmu
+  -  Info: Copied file to Plugins/MySteeringSrc_FMU_20260311_1055.fmu
+  Plugins/MySteeringSrc_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySteeringSrc_FMU_20260311_1055.pluginfo
+  Plugins/MySteering_FMU.fmu
+  -  Info: Copied file to Plugins/MySteering_FMU_20260311_1055.fmu
+  Plugins/MySteering_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySteering_FMU_20260311_1055.pluginfo
+  Plugins/MySuspKnC_FMU.fmu
+  -  Info: Copied file to Plugins/MySuspKnC_FMU_20260311_1055.fmu
+  Plugins/MySuspKnC_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySuspKnC_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_BufferSystem_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_BufferSystem_FMU_20260311_1055.fmu
+  Plugins/MySusp_BufferSystem_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_BufferSystem_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_Buffer_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_Buffer_FMU_20260311_1055.fmu
+  Plugins/MySusp_Buffer_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_Buffer_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_DamperSystem_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_DamperSystem_FMU_20260311_1055.fmu
+  Plugins/MySusp_DamperSystem_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_DamperSystem_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_Damper_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_Damper_FMU_20260311_1055.fmu
+  Plugins/MySusp_Damper_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_Damper_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_FrcSystem_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_FrcSystem_FMU_20260311_1055.fmu
+  Plugins/MySusp_FrcSystem_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_FrcSystem_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_ParasiticFriction_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_ParasiticFriction_FMU_20260311_1055.fmu
+  Plugins/MySusp_ParasiticFriction_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_ParasiticFriction_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_ParasiticStiffness_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_ParasiticStiffness_FMU_20260311_1055.fmu
+  Plugins/MySusp_ParasiticStiffness_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_ParasiticStiffness_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_SpringSystem_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_SpringSystem_FMU_20260311_1055.fmu
+  Plugins/MySusp_SpringSystem_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_SpringSystem_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_Spring_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_Spring_FMU_20260311_1055.fmu
+  Plugins/MySusp_Spring_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_Spring_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_StabiSystem_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_StabiSystem_FMU_20260311_1055.fmu
+  Plugins/MySusp_StabiSystem_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_StabiSystem_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_Stabi_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_Stabi_FMU_20260311_1055.fmu
+  Plugins/MySusp_Stabi_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_Stabi_FMU_20260311_1055.pluginfo
+  Plugins/MySusp_TopMount_FMU.fmu
+  -  Info: Copied file to Plugins/MySusp_TopMount_FMU_20260311_1055.fmu
+  Plugins/MySusp_TopMount_FMU.pluginfo
+  -  Info: Copied file to Plugins/MySusp_TopMount_FMU_20260311_1055.pluginfo
+  Plugins/MyTireCPMod_FMU.fmu
+  -  Info: Copied file to Plugins/MyTireCPMod_FMU_20260311_1055.fmu
+  Plugins/MyTireCPMod_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyTireCPMod_FMU_20260311_1055.pluginfo
+  Plugins/MyTire_FMU.fmu
+  -  Info: Copied file to Plugins/MyTire_FMU_20260311_1055.fmu
+  Plugins/MyTire_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyTire_FMU_20260311_1055.pluginfo
+  Plugins/MyTransmCU_FMU.fmu
+  -  Info: Copied file to Plugins/MyTransmCU_FMU_20260311_1055.fmu
+  Plugins/MyTransmCU_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyTransmCU_FMU_20260311_1055.pluginfo
+  Plugins/MyUserDriver_FMU.fmu
+  -  Info: Copied file to Plugins/MyUserDriver_FMU_20260311_1055.fmu
+  Plugins/MyUserDriver_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyUserDriver_FMU_20260311_1055.pluginfo
+  Plugins/MyVehicleControl_FMU.fmu
+  -  Info: Copied file to Plugins/MyVehicleControl_FMU_20260311_1055.fmu
+  Plugins/MyVehicleControl_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyVehicleControl_FMU_20260311_1055.pluginfo
+  Plugins/MyVhclOperator_FMU.fmu
+  -  Info: Copied file to Plugins/MyVhclOperator_FMU_20260311_1055.fmu
+  Plugins/MyVhclOperator_FMU.pluginfo
+  -  Info: Copied file to Plugins/MyVhclOperator_FMU_20260311_1055.pluginfo
+  src/.cproject
+  -  Info: Copied file to src/.cproject_20260311_1055
+  src/.project
+  -  Info: Copied file to src/.project_20260311_1055
+  src/.settings/org.eclipse.cdt.core.prefs
+  -  Info: Copied file to src/.settings/org.eclipse.cdt.core_20260311_1055.prefs
+  src/BodyCtrl_RTW.mdl
+  -  Info: Copied file to src/BodyCtrl_RTW_20260311_1055.mdl
+  src/CarMaker.props
+  -  Info: Copied file to src/CarMaker_20260311_1055.props
+  src/CarMaker.vcxproj
+  -  Info: Copied file to src/CarMaker_20260311_1055.vcxproj
+  src/CarMaker.vcxproj.filters
+  -  Info: Copied file to src/CarMaker.vcxproj_20260311_1055.filters
+  src/CarMakerInstall.vcxproj
+  -  Info: Copied file to src/CarMakerInstall_20260311_1055.vcxproj
+  src/ESP_RTW.mdl
+  -  Info: Copied file to src/ESP_RTW_20260311_1055.mdl
+  src/ExtraModels/MyModels.h
+  -  Info: Copied file to src/ExtraModels/MyModels_20260311_1055.h
+  src/IOVec.h
+  -  Info: Copied file to src/IOVec_20260311_1055.h
+  src/Makefile
+  -  Info: Copied file to src/Makefile_20260311_1055
+  src/MyBatteryCU_RTW.mdl
+  -  Info: Copied file to src/MyBatteryCU_RTW_20260311_1055.mdl
+  src/MyBattery_RTW.mdl
+  -  Info: Copied file to src/MyBattery_RTW_20260311_1055.mdl
+  src/MyClutch_RTW.mdl
+  -  Info: Copied file to src/MyClutch_RTW_20260311_1055.mdl
+  src/MyDriveLine_RTW.mdl
+  -  Info: Copied file to src/MyDriveLine_RTW_20260311_1055.mdl
+  src/MyEngineCU_RTW.mdl
+  -  Info: Copied file to src/MyEngineCU_RTW_20260311_1055.mdl
+  src/MyEngine_RTW.mdl
+  -  Info: Copied file to src/MyEngine_RTW_20260311_1055.mdl
+  src/MyGearBox_RTW.mdl
+  -  Info: Copied file to src/MyGearBox_RTW_20260311_1055.mdl
+  src/MyInverter_RTW.mdl
+  -  Info: Copied file to src/MyInverter_RTW_20260311_1055.mdl
+  src/MyMotorCU_RTW.mdl
+  -  Info: Copied file to src/MyMotorCU_RTW_20260311_1055.mdl
+  src/MyMotor_RTW.mdl
+  -  Info: Copied file to src/MyMotor_RTW_20260311_1055.mdl
+  src/MyPTControlOSM_RTW.mdl
+  -  Info: Copied file to src/MyPTControlOSM_RTW_20260311_1055.mdl
+  src/MyPTControl_RTW.mdl
+  -  Info: Copied file to src/MyPTControl_RTW_20260311_1055.mdl
+  src/MyPowerSupply_RTW.mdl
+  -  Info: Copied file to src/MyPowerSupply_RTW_20260311_1055.mdl
+  src/MyPowerTrain_RTW.mdl
+  -  Info: Copied file to src/MyPowerTrain_RTW_20260311_1055.mdl
+  src/MyPowerTrain_RTW_bus.m
+  -  Info: Copied file to src/MyPowerTrain_RTW_bus_20260311_1055.m
+  src/MySelectorCtrlMapping_RTW.mdl
+  -  Info: Copied file to src/MySelectorCtrlMapping_RTW_20260311_1055.mdl
+  src/MySuspKnC_RTW.mdl
+  -  Info: Copied file to src/MySuspKnC_RTW_20260311_1055.mdl
+  src/MySusp_BufferSystem_RTW.mdl
+  -  Info: Copied file to src/MySusp_BufferSystem_RTW_20260311_1055.mdl
+  src/MySusp_Buffer_RTW.mdl
+  -  Info: Copied file to src/MySusp_Buffer_RTW_20260311_1055.mdl
+  src/MySusp_DamperSystem_RTW.mdl
+  -  Info: Copied file to src/MySusp_DamperSystem_RTW_20260311_1055.mdl
+  src/MySusp_Damper_RTW.mdl
+  -  Info: Copied file to src/MySusp_Damper_RTW_20260311_1055.mdl
+  src/MySusp_FrcSystem_RTW.mdl
+  -  Info: Copied file to src/MySusp_FrcSystem_RTW_20260311_1055.mdl
+  src/MySusp_ParasiticFriction_RTW.mdl
+  -  Info: Copied file to src/MySusp_ParasiticFriction_RTW_20260311_1055.mdl
+  src/MySusp_ParasiticStiffness_RTW.mdl
+  -  Info: Copied file to src/MySusp_ParasiticStiffness_RTW_20260311_1055.mdl
+  src/MySusp_SpringSystem_RTW.mdl
+  -  Info: Copied file to src/MySusp_SpringSystem_RTW_20260311_1055.mdl
+  src/MySusp_Spring_RTW.mdl
+  -  Info: Copied file to src/MySusp_Spring_RTW_20260311_1055.mdl
+  src/MySusp_StabiSystem_RTW.mdl
+  -  Info: Copied file to src/MySusp_StabiSystem_RTW_20260311_1055.mdl
+  src/MySusp_Stabi_RTW.mdl
+  -  Info: Copied file to src/MySusp_Stabi_RTW_20260311_1055.mdl
+  src/MySusp_TopMount_RTW.mdl
+  -  Info: Copied file to src/MySusp_TopMount_RTW_20260311_1055.mdl
+  src/MyTransmCU_RTW.mdl
+  -  Info: Copied file to src/MyTransmCU_RTW_20260311_1055.mdl
+  src/MyUserDriver_RTW.mdl
+  -  Info: Copied file to src/MyUserDriver_RTW_20260311_1055.mdl
+  src/MyVhclOperator_RTW.mdl
+  -  Info: Copied file to src/MyVhclOperator_RTW_20260311_1055.mdl
+  src/README-BodyCtrl_RTW.txt
+  -  Info: Copied file to src/README-BodyCtrl_RTW_20260311_1055.txt
+  src/README-SingleTrack_RTW.txt
+  -  Info: Copied file to src/README-SingleTrack_RTW_20260311_1055.txt
+  src/README-UserSteer_RTW.txt
+  -  Info: Copied file to src/README-UserSteer_RTW_20260311_1055.txt
+  src/README-UserVehicle_RTW.txt
+  -  Info: Copied file to src/README-UserVehicle_RTW_20260311_1055.txt
+  src/SingleTrack_RTW.mdl
+  -  Info: Copied file to src/SingleTrack_RTW_20260311_1055.mdl
+  src/SingleTrack_RTW_bus.m
+  -  Info: Copied file to src/SingleTrack_RTW_bus_20260311_1055.m
+  src/SingleTrack_RTW_params.m
+  -  Info: Copied file to src/SingleTrack_RTW_params_20260311_1055.m
+  src/SoftABS_Hyd_RTW.mdl
+  -  Info: Copied file to src/SoftABS_Hyd_RTW_20260311_1055.mdl
+  src/User.h
+  -  Info: Copied file to src/User_20260311_1055.h
+  src/UserBrake_RTW.mdl
+  -  Info: Copied file to src/UserBrake_RTW_20260311_1055.mdl
+  src/UserSteer_RTW.mdl
+  -  Info: Copied file to src/UserSteer_RTW_20260311_1055.mdl
+  src/UserVehicle_RTW.mdl
+  -  Info: Copied file to src/UserVehicle_RTW_20260311_1055.mdl
+  src/UserVehicle_RTW_bus.m
+  -  Info: Copied file to src/UserVehicle_RTW_bus_20260311_1055.m
+  src/UserVehicle_RTW_params.m
+  -  Info: Copied file to src/UserVehicle_RTW_params_20260311_1055.m
+  src/cmenv.m
+  -  Info: Copied file to src/cmenv_20260311_1055.m
+  src/makefile.defs
+  -  Info: Copied file to src/makefile_20260311_1055.defs
+  src/makefile.targets
+  -  Info: Copied file to src/makefile_20260311_1055.targets
+  src/tire_lin.c
+  -  Info: Copied file to src/tire_lin_20260311_1055.c
+  src/tire_lin.mexw64
+  -  Info: Copied file to src/tire_lin_20260311_1055.mexw64
+  149 source code files have been copied
+  >> Finished.
+
+Deleting cached .node files of imported Movie NX assets...
+  0 Files deleted.
+  >> Finished.
+
+Deleting old unmodified template files...
+  0 Files deleted, 0 errors occurred
+  >> Finished.
+
+Copying new files to project directory...
+  351 Files copied, 0 errors occurred
+  >> Finished.
+
+Converting Simulink models...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting FMUs...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting Test Runs and TestSeries...
+  Data/TestRun/Initial_model
+  1 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting IPGRoad files...
+  Data/Road/.tmp_55PCH120_s458193.1
+  Data/Road/MK_to_Cranfield_H6_Filtered_10m_elevation.rd5
+  Data/Road/MK_to_Cranfield_H6_Filtered_10m_elevation_speed_limited.rd5
+  3 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting Vehicle files...
+  Data/Vehicle/.tmp_vehicle_startpos__s458193
+  Data/Vehicle/Kia_niro_ev_1.car
+  2 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting Trailer files...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting sensor material files...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting external sensor parametrization files...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting Tire files...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting configuration files...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting IO Configurations...
+  0 Files converted, 0 errors occurred
+  >> Finished.
+
+Converting Scenario Editor template files...
+  >> Finished.
+
+-------------------------------------------------------------------------------
+Update finished successfully. No errors occurred
+-------------------------------------------------------------------------------
+
+End: 2026-03-11 10:56:25

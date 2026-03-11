@@ -14,19 +14,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ClCompile Include="app_tmp.c">
+    <ClCompile Include="app_tmp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CM_Main.c">
+    <ClCompile Include="CM_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CM_Vehicle.c">
+    <ClCompile Include="CM_Vehicle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="User.c">
+    <ClCompile Include="User.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IO.c">
+    <ClCompile Include="IO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

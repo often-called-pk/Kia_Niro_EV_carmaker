@@ -1,7 +1,7 @@
 install: ../$(APP_NAME)
 	cd $(subst \,/,$(CWD))/..; $(INSTALL_APP) $(APP_NAME) $(ARCH)
 	
-../app_tmp.c: makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
+../app_tmp.cpp: makefile $(OBJS_$(ARCH)) $(OBJS) $(LD_LIBS_MK)
 	$(QECHO) " MK     $@"
 	$Q $(CREATE_INFO_CMD)
 	

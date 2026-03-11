@@ -1,17 +1,17 @@
 /*
  *****************************************************************************
- *  CarMaker - Version 14.1.1
+ *  CarMaker - Version 15.0.1
  *  Virtual Test Driving Tool
  *
- *  Copyright ©1998-2025 IPG Automotive GmbH. All rights reserved.
+ *  Copyright ©1998-2026 IPG Automotive GmbH. All rights reserved.
  *  www.ipg-automotive.com
  *****************************************************************************
 *
 * S-function of a simple, linear tire model used in UserVehicle_RTW.mdl.
 *
 * Compile in 64-bit Matlab with one of
-*   mex '-IC:/IPG/carmaker/win64-14.1.1/include' '-DLINUX' '-DLINUX64' tire_lin.c
-*   mex '-IC:/IPG/carmaker/win64-14.1.1/include' '-DWIN32' '-DWIN64'   tire_lin.c
+*   mex '-IC:/IPG/carmaker/win64-15.0.1/include' '-DLINUX' '-DLINUX64' tire_lin.c
+*   mex '-IC:/IPG/carmaker/win64-15.0.1/include' '-DWIN32' '-DWIN64'   tire_lin.c
  */
 
 #define S_FUNCTION_NAME  tire_lin

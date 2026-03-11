@@ -1,5 +1,5 @@
 #INFOFILE1.1 (UTF-8) - Do not remove this line!
-FileIdent = GUI-Config 14.0
+FileIdent = GUI-Config 15.0
 CM_X.Exe = CarMaker.win64.exe
 CM_X.Args =
 CM_X.Exe.History:

@@ -1,6 +1,6 @@
 ##
 ## Math.tcl  --  built-in math functions
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## Example illustrates the use of the built-in math functions
 ##

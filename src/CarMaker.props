@@ -15,7 +15,7 @@
     <!-- APP_NAME is required by CarMakerInstall.vcxproj -->
     <APP_NAME>$(TargetName)$(TargetExt)</APP_NAME>
     <APP_VER>Car_Generic &lt;insert.your.version.no&gt;</APP_VER>
-    <MATSUPP_MATVER>R2021a</MATSUPP_MATVER>
+    <MATSUPP_MATVER>R2022b</MATSUPP_MATVER>
     <MATSUPP_DIR>$(CARMAKER_DIR)/Matlab/$(MATSUPP_MATVER)</MATSUPP_DIR>
     <MATSUPP_LIB>$(MATSUPP_DIR)/libmatsupp-$(ARCH).a</MATSUPP_LIB>
     <C_FLAGS>"Used compiler options are not available for MS Visual Studio builds."</C_FLAGS>
@@ -75,8 +75,8 @@
 
   <ItemDefinitionGroup>
     <PreBuildEvent>
-      <Command>"$(CREATE_INFO)" =av "$(APP_VER)" =sv "$(CARMAKER_SETVER)" =arch $(ARCH) =cf $(C_FLAGS) =libs $(LD_LIBS) =o app_tmp.c</Command>
-      <Message>Creating app_tmp.c</Message>
+      <Command>"$(CREATE_INFO)" =av "$(APP_VER)" =sv "$(CARMAKER_SETVER)" =arch $(ARCH) =cf $(C_FLAGS) =libs $(LD_LIBS) =o app_tmp.cpp</Command>
+      <Message>Creating app_tmp.cpp</Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
 

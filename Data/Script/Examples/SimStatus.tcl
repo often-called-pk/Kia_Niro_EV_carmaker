@@ -1,6 +1,6 @@
 ##
 ## SimStatus.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ## 
 ## This example illustrates the use of the SimStatus command.
 ##

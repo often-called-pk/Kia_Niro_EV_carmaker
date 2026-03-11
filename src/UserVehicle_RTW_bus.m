@@ -72,7 +72,7 @@ Simulink.Bus.cellToObject({
       {'FR2', 		1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
       {'RL3', 		1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
       {'RR3', 		1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
-      {'RL4', 		1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
+      {'RL4',	 	1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
       {'RR4', 		1,'cm30VehicleWheelOut', -1, 'real', 'Sample'};
     }
   }
@@ -334,7 +334,8 @@ Simulink.Bus.cellToObject({
       { 'Trq_Supp2Bdy1',	1,'cm30xyz', -1, 'real', 'Sample' };
       { 'Trq_Supp2Bdy1B',	1,'cm30xyz', -1, 'real', 'Sample' };
       { 'Trq_Supp2BdyEng',	1, 'cm30xy', -1, 'real', 'Sample' };
-      { 'Ignition',		1, 'double', -1, 'real', 'Sample' };
+      { 'Ignition',		    1, 'double', -1, 'real', 'Sample' };
+      { 'SelectorCtrl_Out', 1, 'double', -1, 'real', 'Sample' };
       { 'OperationState',	1, 'double', -1, 'real', 'Sample' };
       { 'OperationError',	1, 'double', -1, 'real', 'Sample' };
       { 'Engine_rotv',		1, 'double', -1, 'real', 'Sample' };
@@ -447,3 +448,4 @@ Simulink.Bus.cellToObject({
     }
   }
 });
+

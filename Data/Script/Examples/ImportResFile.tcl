@@ -1,6 +1,6 @@
 ##
 ## ImportResFile.tcl  --  Import Results File
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## MODIFY THE SCRIPT:
 ## set the name of the result file to read.

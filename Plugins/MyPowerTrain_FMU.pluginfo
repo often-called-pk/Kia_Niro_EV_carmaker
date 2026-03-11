@@ -1,6 +1,6 @@
 #INFOFILE1.1 - Do not remove this line!
 FileIdent = CarMaker-PlugInfo 2
-FileCreator = CarMaker 9.0 2020-04-08 12:42 TEMPLATE
+FileCreator = CarMaker 15.0 TEMPLATE
 
 FMU.Name = MyPowerTrain_FMU
 FMU.Modelclass = PowerTrain
@@ -16,6 +16,8 @@ FMUIn.Gas.Link = IFVar
 FMUIn.Gas.Rel = Gas
 FMUIn.SC_State.Link = DDictVar
 FMUIn.SC_State.Rel = SC.State
+FMUIn.SelectorCtrl_In.Link = IFVar
+FMUIn.SelectorCtrl_In.Rel = SelectorCtrl
 FMUIn.Trq_Brake_FL.Link = IFVar
 FMUIn.Trq_Brake_FL.Rel = WheelIn.FL.Trq_Brake
 FMUIn.Trq_Brake_FR.Link = IFVar
@@ -43,6 +45,8 @@ FMUIn.Trq_WhlBearing_RR.Rel = WheelIn.RR.Trq_WhlBearing
 
 IFVar.OperationState.Link = FMUVar
 IFVar.OperationState.Rel = OperationState
+IFVar.SelectorCtrl_Out.Link = FMUVar
+IFVar.SelectorCtrl_Out.Rel = SelecotrCtrl_Out
 IFVar.Trq_Supp2Bdy1.ry.Link = FMUVar
 IFVar.Trq_Supp2Bdy1.ry.Rel = Trq_Supp2Bdy1_y
 IFVar.Trq_Supp2Bdy1B.ry.Link = FMUVar

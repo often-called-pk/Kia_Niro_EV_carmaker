@@ -28,7 +28,7 @@ Relevant files and places to look at
 	|-- BodyCtrl_RTW_params.m
 	|-- Makefile
 	|-- README-BodyCtrl_RTW.txt
-	`-- User.c
+	`-- User.cpp
 
 o src/BodyCtrl_RTW.mdl
   src/BodyCtrl_RTW_params.mdl
@@ -38,7 +38,7 @@ o src/BodyCtrl_RTW_CarMaker_rtw/BodyCtrl_RTW_wrap.h
   src/BodyCtrl_RTW_CarMaker_rtw/BodyCtrl_RTW_wrap.c
   The wrapper source code.
 
-o src/User.c
+o src/User.cpp
   #include of the wrapper header file.
   Registration of the BodyCtrl_RTW model in function User_Register().
   The corresponding statements are added automatically by the RTW build process.
@@ -66,7 +66,7 @@ Implementation details
 o The model is connected to CarMaker by "registering" it, i.e. adding it to
   the list of available external suspension forces modules. Registering is
   done in the model wrapper's central interface function BodyCtrl_RTW_Register(),
-  which is called from User_Register() in src/User.c. Once it is registered,
+  which is called from User_Register() in src/User.cpp. Once it is registered,
   the BodyCtrl_RTW module can be activated with a SuspExtFrcs.Kind entry in
   the vehicle's configuration file. CarMaker then automatically calls the
   functions of our module using the function pointers in the

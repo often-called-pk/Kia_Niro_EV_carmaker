@@ -1,6 +1,6 @@
 ##
 ## Clock.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## An example showing how to create and use a clock. 
 ## The clock functions work using the simulation time T and are only

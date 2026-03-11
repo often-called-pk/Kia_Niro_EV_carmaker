@@ -1,6 +1,6 @@
 ##
 ## Boolean.tcl 
-## CarMaker 14.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
+## CarMaker 15.0 ScriptControl Example - IPG Automotive GmbH (www.ipg-automotive.com)
 ##
 ## This example shows how to make logical boolean 
 ## expression, and also how to use the bitwise operators
