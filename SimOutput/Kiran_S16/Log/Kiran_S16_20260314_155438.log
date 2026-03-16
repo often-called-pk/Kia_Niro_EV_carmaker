@@ -1,0 +1,33 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #3 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:13
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-14 15:54:38
+TIME	0.000
+SIM_END			0s	0m
+IDLE	15:54:39
+SIM_START	Initial_model	2026-03-14 15:54:44
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	786.560
+SIM_END		Initial_model	786.552s	13350.8m
+TIME	790.787
+SIM_START	Initial_model	2026-03-14 15:55:43
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	43.970
+WARNING		Cannot start simulation, must be in state 'Idle' (currently 'Simulate')
+TIME	786.560
+SIM_END		Initial_model	786.552s	13350.8m
+TIME	792.559
+SIM_START	Initial_model	2026-03-14 15:58:52
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	786.560
+SIM_END		Initial_model	786.552s	13350.8m
+TIME	1323.356
+SHUTDOWN	CarMaker quick shutdown initiated
+

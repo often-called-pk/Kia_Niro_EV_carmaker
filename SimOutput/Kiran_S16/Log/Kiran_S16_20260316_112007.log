@@ -1,0 +1,31 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #3 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:13
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-16 11:20:08
+TIME	0.000
+SIM_END			0s	0m
+IDLE	11:20:08
+SIM_START	Testing_validation	2026-03-16 11:20:12
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.948
+SIM_END		Testing_validation	239.94s	971.991m
+TIME	251.003
+SIM_START	Testing_validation	2026-03-16 11:22:08
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.948
+SIM_END		Testing_validation	239.94s	971.991m
+TIME	275.196
+SIM_START	Testing_validation	2026-03-16 11:28:06
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.948
+SIM_END		Testing_validation	239.94s	972.484m
+TIME	607.605
+SHUTDOWN	CarMaker quick shutdown initiated
+
