@@ -1,0 +1,127 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #3 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:13
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-17 11:12:09
+TIME	0.000
+SIM_END			0s	0m
+IDLE	11:12:09
+SIM_START	Testing_validation	2026-03-17 11:12:11
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.948
+SIM_END		Testing_validation	239.94s	972.486m
+SIM_START	Testing_validation	2026-03-17 11:12:29
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.943
+SIM_END		Testing_validation	239.94s	972.486m
+TIME	377.973
+SIM_START	Testing_validation	2026-03-17 14:27:29
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	206.159
+SIM_END		Testing_validation	206.157s	745.881m
+TIME	215.516
+SIM_START	Testing_validation	2026-03-17 14:29:46
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	206.165
+SIM_END		Testing_validation	206.157s	745.881m
+TIME	246.022
+SIM_START	Testing_validation	2026-03-17 14:37:00
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	206.165
+SIM_END		Testing_validation	206.157s	745.881m
+TIME	271.623
+SIM_START	Testing_validation	2026-03-17 14:47:59
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	227.771
+SIM_END		Testing_validation	227.763s	915.314m
+SIM_START	Testing_validation	2026-03-17 14:48:17
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	227.771
+SIM_END		Testing_validation	227.763s	915.314m
+TIME	257.120
+SIM_START	Testing_validation	2026-03-17 14:53:16
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	227.769
+SIM_END		Testing_validation	227.761s	915.294m
+TIME	230.594
+SIM_START	Testing_validation	2026-03-17 14:54:10
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	227.769
+SIM_END		Testing_validation	227.761s	915.294m
+TIME	254.774
+SIM_START	Testing_validation	2026-03-17 14:59:18
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	227.766
+SIM_END		Testing_validation	227.758s	915.273m
+TIME	299.243
+SIM_START	Testing_validation	2026-03-17 15:11:40
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	221.814
+SIM_END		Testing_validation	221.806s	867.041m
+TIME	242.199
+SIM_START	Testing_validation	2026-03-17 15:15:09
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	221.814
+SIM_END		Testing_validation	221.806s	867.041m
+TIME	327.994
+SIM_START	Testing_validation	2026-03-17 15:32:56
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	221.814
+SIM_END		Testing_validation	221.806s	867.041m
+TIME	316.170
+SIM_START	Testing_validation	2026-03-17 15:58:05
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	221.814
+SIM_END		Testing_validation	221.806s	867.041m
+TIME	226.731
+SIM_START	Testing_validation	2026-03-17 15:59:37
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	122.189
+SIM_END		Testing_validation	122.181s	866.597m
+TIME	127.227
+SIM_START	Testing_validation	2026-03-17 16:00:32
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	159.900
+SIM_END		Testing_validation	159.892s	866.745m
+TIME	178.477
+SIM_START	Testing_validation	2026-03-17 16:03:42
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	239.948
+SIM_END		Testing_validation	239.94s	1312.78m
+TIME	287.775
+SHUTDOWN	CarMaker quick shutdown initiated
+

@@ -1,0 +1,22 @@
+[2026-03-19 22:41:54.658] [Application] [warning] Invalid configuration file for Creator 'MovieNX'. Perhaps the file was not yet created? Path: C:/Users/pbkir/OneDrive/Desktop/GDP/CARMAKER/Kia_Niro_EV_carmaker/MovieNX/data/Camera/Camera.cfg
+[2026-03-19 22:41:55.600] [Application] [info] Creating engine cache path: C:/Users/pbkir/AppData/Local/cache/MovieNX/cache_150
+[2026-03-19 22:42:01.715] [Application] [info] APO: Successfully connected to: CarMaker 15.0.1 - Car_Generic @ Kiran_S16(127.0.0.1):31920
+[2026-03-19 22:42:01.720] [Application] [info] Using RenderSettingsProfile: RenderSettings_high.cfg -> template_high.render
+[2026-03-19 22:42:01.829] [Application] [info] Loading Installed scripts...
+[2026-03-19 22:42:01.829] [Application] [info] Loading User scripts...
+[2026-03-19 22:42:01.830] [Application] [info] Loading project scripts...
+[2026-03-19 22:42:01.831] [Application] [info] Loaded Path Mapping with 0 mapped directories. Set CarMaker home dir to 'C:/IPG/carmaker/win64-15.0.1'
+[2026-03-19 22:42:01.888] [Application] [info] Loading Test Run from path C:/Users/pbkir/OneDrive/Desktop/GDP/CARMAKER/Kia_Niro_EV_carmaker/Data/TestRun/.tmp__pbkir.1
+[2026-03-19 22:42:01.899] [Application] [warning] Could not find file ..node. Search paths: C:/Users/pbkir/OneDrive/Desktop/GDP/CARMAKER/Kia_Niro_EV_carmaker/MovieNX/data/,C:/IPG/movienx/win64-15.0.1/data
+[2026-03-19 22:42:01.899] [Application] [warning] EgoVehicle: missing 'body_B' node!
+[2026-03-19 22:42:01.899] [Application] [warning] EgoVehicle: missing 'body_A2B' node!
+[2026-03-19 22:42:01.963] [Application] [warning] Invalid configuration file for Creator 'MovieNX'. Perhaps the file was not yet created? Path: C:/Users/pbkir/OneDrive/Desktop/GDP/CARMAKER/Kia_Niro_EV_carmaker/MovieNX/data/Camera/Camera.cfg
+[2026-03-19 22:42:01.969] [Application] [info] node wheel_carrier.fl missing in EgoVehicle, using dummy instead
+[2026-03-19 22:42:01.969] [Application] [warning] EgoVehicle: wheel carrier  has no child node
+[2026-03-19 22:42:01.970] [Application] [info] node wheel_carrier.fr missing in EgoVehicle, using clone instead
+[2026-03-19 22:42:01.970] [Application] [warning] EgoVehicle: wheel carrier wheel_carrier.fr has no child node
+[2026-03-19 22:42:01.970] [Application] [info] node wheel_carrier.rl missing in EgoVehicle, using clone instead
+[2026-03-19 22:42:01.970] [Application] [warning] EgoVehicle: wheel carrier wheel_carrier.rl has no child node
+[2026-03-19 22:42:01.970] [Application] [info] node wheel_carrier.rr missing in EgoVehicle, using clone instead
+[2026-03-19 22:42:01.970] [Application] [warning] EgoVehicle: wheel carrier wheel_carrier.rr has no child node
+[2026-03-19 22:42:20.844] [Application] [info] APO Client: Disconnecting...

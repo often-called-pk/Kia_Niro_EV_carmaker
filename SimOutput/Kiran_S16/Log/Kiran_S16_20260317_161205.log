@@ -1,0 +1,20 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Testing_validation	2026-03-17 16:13:17
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	159.893
+SIM_END		Testing_validation	159.893s	866.739m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Testing_validation	2026-03-17 16:14:42
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	159.893
+SIM_END		Testing_validation	159.893s	866.739m

@@ -34,28 +34,28 @@ Virtual.PoA = 0.0 0.0 0.0
 
 WheelCarrier.fl.mass = 36.949
 WheelCarrier.fl.I = 0.343 0.343 0.343 -0.0 -0.0 -0.0
-WheelCarrier.fl.pos = 3.525 0.782 0.288
+WheelCarrier.fl.pos = 3.692 0.840 0.315
 WheelCarrier.fr.mass = 36.949
 WheelCarrier.fr.I = 0.343 0.343 0.343 -0.0 -0.0 -0.0
-WheelCarrier.fr.pos = 3.525 -0.782 0.288
+WheelCarrier.fr.pos = 3.692 -0.840 0.315
 WheelCarrier.rl.mass = 24.138
 WheelCarrier.rl.I = 0.182 0.182 0.182 -0.0 -0.0 -0.0
-WheelCarrier.rl.pos = 0.805 0.783 0.288
+WheelCarrier.rl.pos = 0.972 0.844 0.315
 WheelCarrier.rr.mass = 24.138
 WheelCarrier.rr.I = 0.182 0.182 0.182 -0.0 -0.0 -0.0
-WheelCarrier.rr.pos = 0.805 -0.783 0.288
+WheelCarrier.rr.pos = 0.972 -0.844 0.315
 Wheel.fl.mass = 25.285
 Wheel.fl.I = 0.613 1.225 0.613
-Wheel.fl.pos = 3.525 0.782 0.288
+Wheel.fl.pos = 3.692 0.840 0.315
 Wheel.fr.mass = 25.285
 Wheel.fr.I = 0.613 1.225 0.613
-Wheel.fr.pos = 3.525 -0.782 0.288
+Wheel.fr.pos = 3.692 -0.840 0.315
 Wheel.rl.mass = 22.587
 Wheel.rl.I = 0.592 1.185 0.592
-Wheel.rl.pos = 0.805 0.783 0.288
+Wheel.rl.pos = 0.972 0.844 0.315
 Wheel.rr.mass = 22.587
 Wheel.rr.I = 0.592 1.185 0.592
-Wheel.rr.pos = 0.805 -0.783 0.288
+Wheel.rr.pos = 0.972 -0.844 0.315
 
 PowerTrain.Engine.Bdy.pos = 0.0 0.0 0.0
 PowerTrain.Engine.Bdy.Ori = 0.0 0.0 0.0
@@ -353,14 +353,14 @@ Susp.Comment:
 ## Steering ##############################################################
 Steering.Kind = GenAngle 1
 Steering.Comment:
-Steering.Rack2StWhl = 100
+Steering.Rack2StWhl = 75
 
 
 ## Tires #################################################################
-Tire.0 = Examples/RT_205_55R16_p2.50
-Tire.1 = Examples/RT_205_55R16_p2.50
-Tire.2 = Examples/RT_205_55R16_p2.50
-Tire.3 = Examples/RT_205_55R16_p2.50
+Tire.0 = Examples/RT_215_55R17_p2.50
+Tire.1 = Examples/RT_215_55R17_p2.50
+Tire.2 = Examples/RT_215_55R17_p2.50
+Tire.3 = Examples/RT_215_55R17_p2.50
 AxleR.TwinTiresOn = 0
 Tires.Comment:
 
@@ -387,23 +387,12 @@ PowerTrain.Comment:
 PowerTrain.OSRate = 5
 PowerTrain.nMotor = 1
 
-PowerTrain.Gearbox.0.Kind = Auto_AMT 1
+PowerTrain.Gearbox.0.Kind = NoGearbox 1
+
+
+## Additional Parameters #################################################
 PowerTrain.Gearbox.0.I_in = 0.001
 PowerTrain.Gearbox.0.I_out = 0.016
-PowerTrain.Gearbox.0.iForwardGears = 10.65
-PowerTrain.Gearbox.0.iBackwardGears = -10.65
-PowerTrain.Gearbox.0.nFit = 50
-PowerTrain.Gearbox.0.LossKind = Constant
-PowerTrain.Gearbox.0.EtaForwardGears = 0.95
-PowerTrain.Gearbox.0.EtaBackwardGears = 0.95
-PowerTrain.Gearbox.0.InertiaKind = Constant
-PowerTrain.Gearbox.0.Clutch.I_in = 0.01
-PowerTrain.Gearbox.0.Clutch.I_out = 0.01
-PowerTrain.Gearbox.0.Clutch.Trq_max = 300.0
-PowerTrain.Gearbox.0.Clutch.slope = 30.0
-PowerTrain.Gearbox.0.Clutch.c = 1500.0
-PowerTrain.Gearbox.0.Bdy.mass = 0.0
-PowerTrain.Gearbox.0.Bdy.I = 0.0 0.0 0.0
 
 PowerTrain.DL.Kind = GenAxle 1
 PowerTrain.DL.FAxle.DrvSrc = Diff 0
@@ -411,7 +400,7 @@ PowerTrain.DL.RAxle.DrvSrc =
 PowerTrain.DL.FlexShaft = 0
 
 PowerTrain.DL.FDiff.Eta = 1.0
-PowerTrain.DL.FDiff.i = 10.7
+PowerTrain.DL.FDiff.i = 10.65
 PowerTrain.DL.FDiff.I_in = 0.001
 PowerTrain.DL.FDiff.I_out = 0.001
 PowerTrain.DL.FDiff.I_Cage = 0.0
@@ -472,40 +461,21 @@ PowerTrain.Control.BattMan.HV.i_SOC = 50.0
 PowerTrain.Control.BattMan.HV.i_Pwr = 1.0
 
 PowerTrain.Control.GasInterpret.Mode = Linear
-PowerTrain.Control.GasInterpret.TrqFull = 185.0
-PowerTrain.Control.GasInterpret.TrqZero = -10.0
+PowerTrain.Control.GasInterpret.TrqFull = 255
+PowerTrain.Control.GasInterpret.TrqZero = -255
 
 PowerTrain.Control.RegBrake.Active = 1
 PowerTrain.Control.RegBrake.SOC_lim = 75.0
 PowerTrain.Control.RegBrake.SOC_lim_range = 5.0
 PowerTrain.Control.RegBrake.v_lim = 2.0
-PowerTrain.Control.RegBrake.Trq_RegBrake_lim = 2.0
+PowerTrain.Control.RegBrake.Trq_RegBrake_lim = 2
 PowerTrain.Control.RegDrag.Active = 1
 PowerTrain.Control.RegDrag.SOC_lim = 75.0
 PowerTrain.Control.RegDrag.SOC_lim_range = 5.0
 PowerTrain.Control.RegDrag.v_lim = 5.0
-PowerTrain.Control.RegDrag.Trq_RegDrag_lim = 2.0
+PowerTrain.Control.RegDrag.Trq_RegDrag_lim = 2
 
-PowerTrain.TCU.Kind = Auto_AMT 1
-PowerTrain.TCU.AutoWithMan = 1
-PowerTrain.TCU.GB.0.Active = 1
-PowerTrain.TCU.GB.1.Active = 0
-PowerTrain.TCU.GB.2.Active = 0
-PowerTrain.TCU.GB.3.Active = 0
-PowerTrain.TCU.GB.4.Active = 0
-PowerTrain.TCU.ShiftCtrl.0.Kind = Linear
-PowerTrain.TCU.ShiftCtrl.0.RotvRef = Gearbox_In
-PowerTrain.TCU.ShiftCtrl.0.Delay = 0.5
-PowerTrain.TCU.ShiftCtrl.0.nShift:
-	1 1000.0 4000.0
-	2 1500.0 3750.0
-	3 1750.0 3750.0
-	4 2000.0 3250.0
-	5 2375.0 6000.0
-PowerTrain.TCU.ShiftCtrl.0.Man.SpeedRange = 800.0 7000.0
-PowerTrain.TCU.ClutchCtrl.0.Creep.Active = 0
-PowerTrain.TCU.ClutchCtrl.0.Creep.Brake_lim = 0.0
-PowerTrain.TCU.ShiftCtrl.0.ShiftAvoid =
+PowerTrain.TCU.Kind =
 PowerTrain.MCU.Kind = Basic 1
 PowerTrain.MCU.Motor.TrqCtrl.p = 0.05
 PowerTrain.MCU.Motor.TrqCtrl.i = 100.0
@@ -549,7 +519,15 @@ PowerTrain.PowerSupply.BattHV.R1 = 0.0004
 PowerTrain.PowerSupply.BattHV.R2 = 0.0011
 PowerTrain.PowerSupply.BattHV.C1 = 4074.0
 PowerTrain.PowerSupply.BattHV.C2 = 82000.0
-PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Active = 0
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Active = 1
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC.Amplify = 1.0
+PowerTrain.PowerSupply.BattHV.VoltCorr_SOC:
+	0.00 0.000
+	6.25 0.625
+	31.25 0.8125
+	62.50 0.875
+	93.75 1.000
+	100.00 1.125
 PowerTrain.PowerSupply.BattHV.PwrMax.Kind = Const
 PowerTrain.PowerSupply.BattHV.PwrMax.Pwr_max = 200
 PowerTrain.PowerSupply.BattHV.Bdy.0.mass = 0.0
