@@ -8,7 +8,7 @@ nJunctions = 0
 nObjects = 53
 nRoutes = 1
 RoadNetworkLength = 200.000
-BBox = -0.214 200.024 -25.321 3.500 -1.000 1.000
+BBox = -1.854 200.024 -205.314 3.500 -1.000 1.000
 Route.0.Length = 200.000
 RST.Unit = kmh
 RST = 50 100 130 30 70 30 0 -1
@@ -50,8 +50,8 @@ Link.0.LaneSection.0.LaneR.0.ARP = 35 36 37 38 39 40
 Link.0.LaneSection.0.LaneR.0.Width.ID = 42
 Link.0.LaneSection.0.LaneR.0.Width.Param = 0
 Link.0.LaneSection.0.LaneR.0.Width.Points:
-	43 34 0 0 20 0 -999 -999 0
-	44 34 0 1 20 0 -999 -999 0
+	43 34 0 0 200 0 -999 -999 0
+	44 34 0 1 200 0 -999 -999 0
 Link.0.LaneSection.0.LaneR.1.ID = 46
 Link.0.LaneSection.0.LaneR.1 = 4 0 0 0
 Link.0.LaneSection.0.LaneR.1.ARP = 47 48 49 50 51 52

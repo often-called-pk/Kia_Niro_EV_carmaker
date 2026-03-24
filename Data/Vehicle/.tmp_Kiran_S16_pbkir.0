@@ -198,12 +198,12 @@ SuspF.Spring = 27000
 SuspF.Parasitic.Stiffness.Kind =
 SuspF.Parasitic.Friction.Kind =
 SuspF.Damper.Kind = Newtonian 1
-SuspF.Damp_Push.Amplify = 1
+SuspF.Damp_Push.Amplify = 2
 SuspF.Damp_Push:
 	0.0 0.0
 	0.1 256.54
 	1.0 1370.6
-SuspF.Damp_Pull.Amplify = 1
+SuspF.Damp_Pull.Amplify = 2
 SuspF.Damp_Pull:
 	0.0 0.0
 	0.1 504.12
@@ -261,12 +261,12 @@ SuspR.Spring = 40000
 SuspR.Parasitic.Stiffness.Kind =
 SuspR.Parasitic.Friction.Kind =
 SuspR.Damper.Kind = Newtonian 1
-SuspR.Damp_Push.Amplify = 1
+SuspR.Damp_Push.Amplify = 2
 SuspR.Damp_Push:
 	0.0 0.0
 	0.1 250.61
 	1.0 1311.4
-SuspR.Damp_Pull.Amplify = 1
+SuspR.Damp_Pull.Amplify = 2
 SuspR.Damp_Pull:
 	0.0 0.0
 	0.1 427.4

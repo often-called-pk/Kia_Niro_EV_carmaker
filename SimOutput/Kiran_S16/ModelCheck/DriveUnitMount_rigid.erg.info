@@ -1,0 +1,14 @@
+#INFOFILE1
+# Description file
+
+File.Format = erg
+File.ByteOrder = LittleEndian
+
+CarMaker.Version =	15.0.1
+App.Version =		CarMaker 15.0.1 - Car_Generic
+App.BuildVersion =	3
+TestRun.Vehicle =	.tmp_Kiran_S16_pbkir.0
+TestRun.Tire.0 =	
+TestRun.Tire.1 =	
+TestRun.Tire.2 =	
+TestRun.Tire.3 =	

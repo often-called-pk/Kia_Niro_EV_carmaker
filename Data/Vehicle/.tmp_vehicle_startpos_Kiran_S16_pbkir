@@ -240,8 +240,11 @@ SuspF.Buf_Pull:
 	0.02 8991.3
 	0.025 25403.0
 SuspF.Stabi.Kind = Hookean 1
-SuspF.Stabi.Amplify = 1.0
-SuspF.Stabi = 14000.0
+SuspF.Stabi.Amplify = 2
+SuspF.Stabi:
+	0.0 0.0
+	0.1 1000.0
+	1.0 10000.0
 SuspF.Kin.N = 1
 SuspF.Com.N = 0
 SuspF.Kin.0.Kind = Linear2D 1
@@ -314,8 +317,11 @@ SuspR.Buf_Pull:
 	0.02 2669.4
 	0.025 6561.6
 SuspR.Stabi.Kind = Hookean 1
-SuspR.Stabi.Amplify = 1.0
-SuspR.Stabi = 15551.0
+SuspR.Stabi.Amplify = 2
+SuspR.Stabi:
+	0.0 0.0
+	0.1 1000.0
+	1.0 10000.0
 SuspR.Kin.N = 1
 SuspR.Com.N = 0
 SuspR.Kin.0.Kind = Linear2D 1

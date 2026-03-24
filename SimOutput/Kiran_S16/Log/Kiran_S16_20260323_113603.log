@@ -1,0 +1,405 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #3 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:13
+ 
+		I/O Configuration: default
+FIRST_INIT	(internal default used)	2026-03-23 11:36:04
+TIME	0.000
+SIM_END			0s	0m
+IDLE	11:36:04
+SIM_START	Testing_validation	2026-03-23 11:36:06
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	13.648
+ERROR		Vehicle leaves road at about x=34.1771, y=-23.8144 TireNo=1
+SIM_ABORT	Testing_validation	13.649s	34.5081m
+TIME	19.821
+SIM_START	Testing_validation	2026-03-23 11:37:12
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.500
+ERROR		Vehicle leaves road at about x=52.5754, y=-53.985 TireNo=1
+SIM_ABORT	Testing_validation	19.501s	59.4526m
+TIME	21.841
+SIM_START	Testing_validation	2026-03-23 11:37:40
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.500
+ERROR		Vehicle leaves road at about x=52.5754, y=-53.985 TireNo=1
+SIM_ABORT	Testing_validation	19.501s	59.4526m
+SIM_START	Testing_validation	2026-03-23 11:38:05
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.500
+ERROR		Vehicle leaves road at about x=52.5754, y=-53.985 TireNo=1
+SIM_ABORT	Testing_validation	19.501s	59.4526m
+TIME	33.876
+SIM_START	Testing_validation	2026-03-23 11:40:39
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	174.606
+SIM_END		Testing_validation	174.603s	1032.7m
+TIME	233.376
+SIM_START	Testing_validation	2026-03-23 11:51:06
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	13.006
+ERROR		Vehicle leaves road at about x=11.7907, y=-53.6145 TireNo=0
+SIM_ABORT	Testing_validation	13.007s	31.5185m
+TIME	24.976
+SIM_START	Testing_validation	2026-03-23 11:53:17
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	17.577
+ERROR		Vehicle leaves road at about x=-1.31909, y=-144.502 TireNo=1
+SIM_ABORT	Testing_validation	17.578s	51.8987m
+TIME	89.998
+SIM_START	Testing_validation	2026-03-23 12:05:27
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	62.032
+SIM_START	Testing_validation	2026-03-23 12:06:07
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	62.754
+SIM_START	Testing_validation	2026-03-23 12:06:51
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	64.921
+SIM_START	Testing_validation	2026-03-23 12:07:58
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	69.339
+SIM_START	Testing_validation	2026-03-23 12:09:49
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.576
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	546.078
+SIM_START	Testing_validation	2026-03-23 14:15:33
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	66.468
+SIM_END		Testing_validation	66.463s	55.578m
+TIME	69.406
+SIM_START	Testing_validation	2026-03-23 14:16:17
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.354m
+TIME	67.570
+SIM_START	Testing_validation	2026-03-23 14:17:51
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.577
+SIM_END		Testing_validation	59.573s	112.296m
+TIME	80.082
+SIM_START	Testing_validation	2026-03-23 14:21:29
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	93.716
+SIM_END		Testing_validation	93.711s	713.844m
+TIME	101.592
+SIM_START	Testing_validation	2026-03-23 14:23:10
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	38.545
+SIM_END		Testing_validation	38.537s	195.589m
+TIME	49.146
+SIM_START	Testing_validation	2026-03-23 14:25:23
+TIME	49.146
+ERROR		ExtInput: No quantity 'Velocity' in file
+TIME	0.003
+SIM_ABORT	Testing_validation	0s	195.589m
+TIME	2.754
+SIM_START	Testing_validation	2026-03-23 14:25:50
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	59.575
+SIM_END		Testing_validation	59.573s	112.296m
+TIME	127.662
+SIM_START	Testing_validation	2026-03-23 14:37:26
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.876
+SIM_END		Testing_validation	19.873s	102.591m
+SIM_START	Testing_validation	2026-03-23 14:37:41
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.875
+SIM_END		Testing_validation	19.873s	102.591m
+TIME	29.181
+SIM_START	Testing_validation	2026-03-23 14:39:20
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	10.477
+SIM_END		Testing_validation	10.474s	43.5143m
+TIME	15.254
+SIM_START	Testing_validation	2026-03-23 14:40:12
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	2.977
+SIM_END		Testing_validation	2.974s	1.22047m
+TIME	6.737
+SIM_START	Testing_validation	2026-03-23 14:40:52
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	19.104
+SIM_END		Testing_validation	19.1s	97.5105m
+TIME	491.047
+SIM_START	Testing_validation	2026-03-23 16:58:57
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	13.005
+ERROR		Vehicle leaves road at about x=111.788, y=-54.5216 TireNo=0
+SIM_ABORT	Testing_validation	13.006s	31.5145m
+TIME	25.737
+SIM_START	Testing_validation	2026-03-23 17:01:09
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	20.790
+ERROR		Vehicle leaves road at about x=89.0122, y=-104.317 TireNo=0
+SIM_ABORT	Testing_validation	20.791s	65.3173m
+TIME	26.495
+SIM_START	Testing_validation	2026-03-23 17:02:12
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	29.527
+ERROR		Vehicle leaves road at about x=49.8346, y=-103.959 TireNo=0
+SIM_ABORT	Testing_validation	29.528s	114.943m
+TIME	34.882
+SIM_START	Testing_validation	2026-03-23 17:03:13
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.446m
+TIME	45.902
+SIM_START	Testing_validation	2026-03-23 17:05:13
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.446m
+TIME	49.690
+SIM_START	Testing_validation	2026-03-23 17:07:53
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.446m
+TIME	240.750
+SIM_START	Testing_validation	2026-03-23 18:27:02
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.446m
+SIM_START	Testing_validation	2026-03-23 18:27:24
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.446m
+TIME	369.653
+SIM_START	Testing_validation	2026-03-23 19:32:02
+TIME	0.003
+ERROR		Vehicle StartPos: No route at s=100m (max. 95.06m)
+SIM_ABORT	Testing_validation	0s	146.446m
+TIME	3.194
+SIM_START	Testing_validation	2026-03-23 19:32:34
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	101.617
+SIM_END		Testing_validation	101.614s	4.1637e-06m
+TIME	176.043
+SIM_START	Testing_validation	2026-03-23 19:46:56
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	11.997
+SIM_END		Testing_validation	11.994s	93.127m
+TIME	21.938
+SIM_START	Testing_validation	2026-03-23 19:48:49
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	12.004
+SIM_END		Testing_validation	11.994s	93.127m
+TIME	121.297
+SIM_START	Testing_validation	2026-03-23 20:07:29
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.066
+SIM_END		Testing_validation	96.064s	713.85m
+TIME	123.823
+SIM_START	Testing_validation	2026-03-23 20:12:42
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.067
+SIM_END		Testing_validation	96.064s	713.85m
+TIME	117.331
+SIM_START	Testing_validation	2026-03-23 20:16:55
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.066
+SIM_END		Testing_validation	96.064s	713.85m
+TIME	125.536
+SIM_START	Testing_validation	2026-03-23 20:22:27
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.066
+SIM_END		Testing_validation	96.064s	713.849m
+TIME	99.233
+SIM_START	Testing_validation	2026-03-23 20:23:20
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.067
+SIM_END		Testing_validation	96.064s	713.849m
+TIME	440.981
+SIM_START	Testing_validation	2026-03-23 21:22:16
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.067
+SIM_END		Testing_validation	96.064s	713.768m
+TIME	837.182
+SIM_START	Testing_validation	2026-03-24 00:17:42
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.070
+SIM_END		Testing_validation	96.067s	713.776m
+SIM_START	Testing_validation	2026-03-24 00:18:27
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.079
+SIM_END		Testing_validation	96.067s	713.776m
+TIME	147.509
+SIM_START	Testing_validation	2026-03-24 00:27:33
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.070
+SIM_END		Testing_validation	96.067s	713.696m
+SIM_START	Testing_validation	2026-03-24 00:28:23
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.071
+SIM_END		Testing_validation	96.067s	713.696m
+TIME	197.655
+SIM_START	Testing_validation	2026-03-24 00:45:55
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.087
+SIM_END		Testing_validation	96.067s	713.703m
+TIME	191.401
+SIM_START	Testing_validation	2026-03-24 01:02:41
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.070
+SIM_END		Testing_validation	96.067s	713.697m
+TIME	139.838
+SIM_START	Testing_validation	2026-03-24 01:10:32
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.070
+SIM_END		Testing_validation	96.067s	713.691m
+TIME	101.572
+SIM_START	Testing_validation	2026-03-24 01:11:55
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.069
+SIM_END		Testing_validation	96.067s	713.691m
+TIME	357.552
+SIM_START	Testing_validation	2026-03-24 09:40:10
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.071
+SIM_END		Testing_validation	96.067s	713.695m
+TIME	187.586
+SIM_START	ModelCheck	2026-03-24 09:56:25
+TIME	0.053
+WARNING		ModelCheck Drive Unit Mount: Option has no effect for rigid mounting
+SIM_END		ModelCheck	33090s	0m
+SIM_START	Testing_validation	2026-03-24 09:56:45
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	96.069
+SIM_END		Testing_validation	96.067s	713.695m
+TIME	192.151
+SIM_START	Testing_validation	2026-03-24 10:13:24
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	30.822
+ERROR		Vehicle leaves road at about x=-17.7813, y=-174.087 TireNo=0
+SIM_ABORT	Testing_validation	30.823s	122.657m
+TIME	36.103
+SIM_START	Testing_validation	2026-03-24 10:14:24
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.48m
+TIME	543.898
+SIM_START	Testing_validation	2026-03-24 11:41:24
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.719
+SIM_END		Testing_validation	34.716s	146.48m
+TIME	75.357
+SIM_START	Testing_validation	2026-03-24 11:48:25
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.716s	146.49m

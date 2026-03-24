@@ -6,17 +6,105 @@ Tire.0 =
 Tire.1 =
 Tire.2 =
 Tire.3 =
-Road.FName = .tmp__pbkir.0
+Road.FileIdent = IPGRoad 15.0
+Road.LibVersion = 15.0.1
+Road.Country = DEU
+Road.nLinks = 1
+Road.nJunctions = 0
+Road.nObjects = 56
+Road.nRoutes = 1
+Road.RoadNetworkLength = 300.000
+Road.BBox = -85.845 216.028 -176.196 33.528 -1.000 1.000
+Road.Route.0.Length = 300.000
+Road.RST.Unit = kmh
+Road.RST = 50 100 130 30 70 30 0 -1
+Road.Movie = 0.2 1 0.01 1.5 1.5 1 1
+Road.Visualization.SamplingParams = 0.2 1 0.01
+Road.Visualization.RoadsideWidth = 1.5 1.5
+Road.Visualization.RoadsideSlope = 1 1
+Road.Visualization.MovieNX.RenderMask = 4095
+Road.PathMode = -1
+Road.Terrain.Param = 50 25 300 100 0.75 0
+Road.Link.0.ID = 0
+Road.Link.0.Node0 = -83.9914999432173 30.0283433183217 359.478
+Road.Link.0.Node1 = 215.99604963695 27.2951955201458 359.478
+Road.Link.0.RST = Countryroad
+Road.Link.0.RL.ID = 1
+Road.Link.0.Seg.0.ID = 3
+Road.Link.0.Seg.0.Type = Straight
+Road.Link.0.Seg.0.Param = 300 0 0 0 0 0 0 0
+Road.Link.0.LaneSection.0.ID = 6
+Road.Link.0.LaneSection.0.Start = 0
+Road.Link.0.LaneSection.0.LaneL.0.ID = 19
+Road.Link.0.LaneSection.0.LaneL.0 = 4 0 0 0
+Road.Link.0.LaneSection.0.LaneL.0.ARP = 20 21 22 23 24 25
+Road.Link.0.LaneSection.0.LaneL.0.Width.ID = 27
+Road.Link.0.LaneSection.0.LaneL.0.Width.Param = 0
+Road.Link.0.LaneSection.0.LaneL.0.Width.Points:
+	28 19 0 0 1 0 -999 -999 0
+	29 19 0 1 1 0 -999 -999 0
+Road.Link.0.LaneSection.0.LaneL.1.ID = 30
+Road.Link.0.LaneSection.0.LaneL.1 = 5 0 0 0
+Road.Link.0.LaneSection.0.LaneL.1.Width.ID = 31
+Road.Link.0.LaneSection.0.LaneL.1.Width.Param = 0
+Road.Link.0.LaneSection.0.LaneL.1.Width.Points:
+	32 30 0 0 2.5 0 -999 -999 0
+	33 30 0 1 2.5 0 -999 -999 0
+Road.Link.0.LaneSection.0.LaneR.0.ID = 34
+Road.Link.0.LaneSection.0.LaneR.0 = 0 0 0 0
+Road.Link.0.LaneSection.0.LaneR.0.ARP = 35 36 37 38 39 40
+Road.Link.0.LaneSection.0.LaneR.0.Width.ID = 42
+Road.Link.0.LaneSection.0.LaneR.0.Width.Param = 0
+Road.Link.0.LaneSection.0.LaneR.0.Width.Points:
+	43 34 0 0 200 0 -999 -999 0
+	44 34 0 1 200 0 -999 -999 0
+Road.Link.0.LaneSection.0.LaneR.1.ID = 46
+Road.Link.0.LaneSection.0.LaneR.1 = 4 0 0 0
+Road.Link.0.LaneSection.0.LaneR.1.ARP = 47 48 49 50 51 52
+Road.Link.0.LaneSection.0.LaneR.1.Width.ID = 54
+Road.Link.0.LaneSection.0.LaneR.1.Width.Param = 0
+Road.Link.0.LaneSection.0.LaneR.1.Width.Points:
+	55 46 0 0 1 0 -999 -999 0
+	56 46 0 1 1 0 -999 -999 0
+Road.Link.0.LaneSection.0.LaneR.2.ID = 57
+Road.Link.0.LaneSection.0.LaneR.2 = 5 0 0 0
+Road.Link.0.LaneSection.0.LaneR.2.Width.ID = 58
+Road.Link.0.LaneSection.0.LaneR.2.Width.Param = 0
+Road.Link.0.LaneSection.0.LaneR.2.Width.Points:
+	59 57 0 0 2.5 0 -999 -999 0
+	60 57 0 1 2.5 0 -999 -999 0
+Road.Link.0.ElevationProfile.ID = 65
+Road.Link.0.ElevationProfile.Param = 0
+Road.Link.0.ElevationProfile.Height.ID = 4
+Road.Link.0.ElevationProfile.Height.Param = 0
+Road.Link.0.ElevationProfile.Height.Points:
+	5 65 0 0 0 0 -999 -999 0
+	9 65 0 1 0 0 -999 -999 0
+Road.LanePath.0 = 26 19 0.25 10 0.1 0.1 -1 -1
+Road.LanePath.1 = 41 34 2 10 0.1 0.1 -1 -1
+Road.LanePath.2 = 53 46 0.25 10 0.1 0.1 -1 -1
+Route.0.ID = 7
+Route.0.Name = Route_0
+Route.0.DrvPath.ID = 8
+Route.0.DrvPath:
+	41
+Road.RL.1.RoadMarking.0.ID = 45 34
+Road.RL.1.RoadMarking.0 = 0 0 0 1 0 -1 0.15 0 1 0 0 2 4 1 1 0
+Road.RL.1.RoadMarking.0.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 1 1 0 0 0
+Road.RL.1.RoadMarking.1.ID = 61 6
+Road.RL.1.RoadMarking.1 = 0 0 0 1 0 0 0.15 0 2 0 0 2 4 1 1 0
+Road.RL.1.RoadMarking.1.Material.0 = 1.0,1.0,1.0 0 0 0 0 0 0 1 1 0 0 0
+Road.MaxUsedObjId = 65
 Vehicle.DriverTemplate.FName = TestRun
 Vehicle.KnowledgeTemplate.Name =
 Vehicle.UserDriver.Long.FName =
 Vehicle.Routing.Type = Route
-Vehicle.Routing.ObjId = 423
+Vehicle.Routing.ObjId = 7
 Vehicle.StartPos.Type = Route
-Vehicle.StartPos.ObjId = 423
-Vehicle.StartPos = 0.0 0.0
+Vehicle.StartPos.ObjId = 7
+Vehicle.StartPos = 100 0
 Vehicle.StartPos.Orientation.Type = Relative
-Vehicle.StartPos.Orientation = 0.0
+Vehicle.StartPos.Orientation = 0
 DrivMan.nMan = 1
 DrivMan.Man.Start.Velocity = 0.0
 DrivMan.Man.Start.SteerAng = 0
@@ -33,7 +121,9 @@ DrivMan.Man.0.ConsiderDomain = own
 DrivMan.Man.0.Transition.Interrupt = self
 DrivMan.Man.0.Transition.EndCond = end
 DrivMan.Man.0.Transition.SimultanStart = end
+DrivMan.Man.0.LongStep.0.TimeLimit = 93.7
 DrivMan.Man.0.LongStep.0.Dyn = VelExtInput 0 1 0
+DrivMan.Man.0.LatStep.0.TimeLimit = 93.7
 DrivMan.Man.0.LatStep.0.Dyn = Driver 0
 DrivMan.SpeedUnit = kmh
 Traffic.SpeedUnit = ms
