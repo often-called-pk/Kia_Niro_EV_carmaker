@@ -108,3 +108,13 @@ SIMULATE	Initial_model
 
 TIME	806.491
 SIM_END		Initial_model	806.491s	13347.8m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-08 13:37:39
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	806.491
+SIM_END		Initial_model	806.491s	13347.8m
