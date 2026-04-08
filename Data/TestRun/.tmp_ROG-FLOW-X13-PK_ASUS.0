@@ -2,7 +2,7 @@
 FileIdent = CarMaker-TestRun 15
 FileCreator = CarMaker for Simulink 15.0.1
 Description:
-Vehicle = Kia_niro_ev_1.car
+Vehicle = .tmp_ROG-FLOW-X13-PK_ASUS.0
 Trailer =
 Tire.0 =
 Tire.1 =

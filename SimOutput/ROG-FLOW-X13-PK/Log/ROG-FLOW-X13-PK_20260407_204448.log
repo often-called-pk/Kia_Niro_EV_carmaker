@@ -1,0 +1,110 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Testing_validation	2026-04-07 20:46:11
+TIME	0.000
+SIMULATE	Testing_validation
+
+ERROR		No such key 'PowerTrain.Gearbox.0.iForwardGears', file 'D:/Kia_Niro_EV_carmaker-main/Kia_Niro_EV_carmaker-main/Data/Vehicle/Kia_niro_ev_1.car'
+SIM_ABORT	Testing_validation	0s	0m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Testing_validation	2026-04-07 20:47:57
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.718s	153.553m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Testing_validation	2026-04-07 20:48:12
+TIME	0.000
+SIMULATE	Testing_validation
+
+TIME	34.718
+SIM_END		Testing_validation	34.718s	153.553m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-07 20:48:49
+TIME	0.000
+SIMULATE	Initial_model
+
+ERROR		No such key 'PowerTrain.Gearbox.0.iForwardGears', file 'D:/Kia_Niro_EV_carmaker-main/Kia_Niro_EV_carmaker-main/Data/Vehicle/Kia_niro_ev_1.car'
+SIM_ABORT	Initial_model	0s	0m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-07 20:49:45
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	152.777
+SIM_END		Initial_model	152.774s	1763.57m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-07 20:50:51
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	402.717
+SIM_END		Initial_model	402.714s	6451.07m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-07 20:51:15
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	420.380
+SIM_END		Initial_model	420.377s	6692.58m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-08 12:54:52
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	806.491
+SIM_END		Initial_model	806.491s	13347.8m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-08 12:56:10
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	806.491
+SIM_END		Initial_model	806.491s	13347.8m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-08 13:03:08
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	806.491
+SIM_END		Initial_model	806.491s	13347.8m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	Initial_model	2026-04-08 13:05:55
+TIME	0.000
+SIMULATE	Initial_model
+
+TIME	806.491
+SIM_END		Initial_model	806.491s	13347.8m
