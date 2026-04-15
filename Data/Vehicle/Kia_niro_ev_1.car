@@ -364,105 +364,18 @@ Brake.Comment:
 
 
 ## Powertrain ############################################################
-PowerTrain.Kind = BEV 1
+PowerTrain.Kind = CM4SL 1
 PowerTrain.Comment:
-PowerTrain.OSRate = 5
-PowerTrain.nMotor = 1
 
-PowerTrain.Gearbox.0.Kind = Manual 1
-PowerTrain.Gearbox.0.I_in = 0.001
-PowerTrain.Gearbox.0.I_out = 0.016
-PowerTrain.Gearbox.0.iForwardGears = 3.5 2.0 1.4 1.0 0.8
-PowerTrain.Gearbox.0.iBackwardGears = -4.0
-PowerTrain.Gearbox.0.nFit = 50
-PowerTrain.Gearbox.0.LossKind = Constant
-PowerTrain.Gearbox.0.EtaForwardGears = 1.0 1.0 1.0 1.0 1.0
-PowerTrain.Gearbox.0.EtaBackwardGears = 1.0
-PowerTrain.Gearbox.0.InertiaKind = Constant
-PowerTrain.Gearbox.0.Bdy.mass = 0.0
-PowerTrain.Gearbox.0.Bdy.I = 0.0 0.0 0.0
-
-PowerTrain.DL.Kind = GenFront 1
-PowerTrain.DL.FlexShaft = 0
-
-PowerTrain.DL.FDiff.Eta = 1.0
-PowerTrain.DL.FDiff.i = 4.1
-PowerTrain.DL.FDiff.I_in = 0.001
-PowerTrain.DL.FDiff.I_out = 0.001
-PowerTrain.DL.FDiff.I_Cage = 0.0
-PowerTrain.DL.FDiff.Cpl.Kind =
-PowerTrain.DL.TrqExt2DiffOn = 0
-PowerTrain.DL.TrqExt2WheelOn = 0
-
-PowerTrain.Motor.Kind = Mapping 1
-PowerTrain.Motor.VoltageLevel = HV1
-PowerTrain.Motor.I = 0.002
-PowerTrain.Motor.Ratio = 1.0
-PowerTrain.Motor.tBuildUp = 0.01
-PowerTrain.Motor.Fric = 3.0e-4
-PowerTrain.Motor.Mot.TrqKind = Map
-PowerTrain.Motor.Mot.TrqMap.Amplify = 1.0
-PowerTrain.Motor.Mot.TrqMap:
-	0.00 210.00
-	682.093 210.00
-	1436.52 99.7131
-	2190.94 65.3781
-	2945.36 48.6322
-	3699.79 38.7156
-	4454.21 32.1582
-	5208.63 27.5004
-	5963.06 24.0211
-	6717.48 21.3234
-	7471.90 19.1704
-	8000.00 17.9049
-	9000 15.9
-	10000 14.32
-	11500 12.45
-	12500 11.456
-	13500 10.6
-	14125 10.13
-PowerTrain.Motor.Mot.EtaKind = Value
-PowerTrain.Motor.Mot.Eta = 0.95
-PowerTrain.Motor.Gen.TrqKind = Value
-PowerTrain.Motor.Gen.Pwr_max = 20.0
-PowerTrain.Motor.Gen.Trq_max = 250.0
-PowerTrain.Motor.Gen.rotv_max = 8000.0
-PowerTrain.Motor.Gen.rotv_Trq_max = 500.0
-PowerTrain.Motor.Gen.EtaKind = Value
-PowerTrain.Motor.Gen.Eta = 0.95
-PowerTrain.Motor.Bdy.mass = 0.0
-PowerTrain.Motor.Bdy.I = 0.0 0.0 0.0
-PowerTrain.Inverter.0.Kind =
-PowerTrain.Inverter.0.PowerLoss:
-	0 10 5
-	0 150 10
-	0 300 20
-	1000 10 10
-	1000 150 15
-	1000 300 25
-	2000 10 15
-	2000 150 25
-	2000 300 35
-	3000 10 20
-	3000 150 30
-	3000 300 40
-	4000 10 25
-	4000 150 35
-	4000 300 45
-PowerTrain.Control.Kind = Generic 1
-PowerTrain.ControlOSM.Kind = Generic 1
-PowerTrain.Control.StartEngineWithSST = 0
-
-PowerTrain.Control.GasInterpret.Active = 0
-
-PowerTrain.TCU.Kind =
-PowerTrain.MCU.Kind = Basic 1
-PowerTrain.MCU.Motor.TrqCtrl.p = 0.05
-PowerTrain.MCU.Motor.TrqCtrl.i = 100.0
-PowerTrain.MCU.Motor.RotvCtrl.p = 0.02
-PowerTrain.MCU.Motor.RotvCtrl.i = 5.0e-5
-PowerTrain.BCU.Kind =
-PowerTrain.PowerSupply.Kind =
+PowerTrain.PTKind = BEV
+PowerTrain.Control.StartEngineWithSST = 1
+PowerTrain.Control.Velocity_max = 260
+PowerTrain.Engine.rotv_idle = 1000
+PowerTrain.Engine.rotv_max = 14125
+PowerTrain.Gearbox.0.GBKind = NoGearbox
+PowerTrain.Gearbox.0.iForwardGears = 10.65 10.65 10.65 10.65 10.65
+PowerTrain.Gearbox.0.iBackwardGears = -10.65
+PowerTrain.DL.iDiff_mean = 1.0
 
 ## Sensor Parametrizations ###############################################
 Sensor.Param.0.Type = SAngle

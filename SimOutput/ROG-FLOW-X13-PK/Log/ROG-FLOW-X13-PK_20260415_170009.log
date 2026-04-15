@@ -1,0 +1,40 @@
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	unknown	2026-04-15 17:05:15
+TIME	0.001
+ERROR		Missing entry 'PowerTrain.Gearbox.0.iForwardGears', file 'D:/GDP/Kia_Niro_EV_carmaker/Data/Vehicle/Kia_niro_ev_1.car'
+ERROR		CM_Main.cpp: Initialization failed (CM_Main_Begin()=-3)
+SIM_ABORT	unknown	0s	0m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	unknown	2026-04-15 17:10:36
+TIME	0.000
+SIMULATE	unknown
+
+TIME	10.344
+ERROR		Vehicle leaves road at about x=-1.91076, y=1.76745 TireNo=2
+SIM_ABORT	unknown	10.347s	0.966646m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	unknown	2026-04-15 17:16:22
+TIME	0.000
+SIMULATE	unknown
+
+TIME	688.479
+SIM_END		unknown	688.479s	13875.2m
+APPLICATION	CarMaker 15.0.1 - Car_Generic #5 (win64-15.0.1)
+COMPILED	jetbrains@eb0f14db18c4 2026-02-09 12:42:32
+ 
+		I/O Configuration: default
+SIM_START	unknown	2026-04-15 17:29:43
+TIME	0.000
+SIMULATE	unknown
+
+TIME	688.479
+SIM_END		unknown	688.479s	13875.2m
